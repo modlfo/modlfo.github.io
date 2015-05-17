@@ -385,6 +385,11 @@ footer a:hover {
   color: #444;
 }
 
+.rimg {
+  opacity: 0.85;
+  border-radius: 8px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
