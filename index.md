@@ -1,6 +1,6 @@
 ---
 layout: front
-title: Hello World!
+title: modlfö - Leonardo
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
