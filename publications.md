@@ -5,11 +5,11 @@ description: ""
 ---
 {% include JB/setup %}
 
-# My PhD Thesis
+### My PhD Thesis
 
 In my thesis I combined three things that I like: mathematical modeling, optimization and electronics. Basically, what I did was to develop methods for designing power systems using evolutionary algorithms. You can read my full thesis here: [Design and Optimization of Power Delivery and Distribution Systems Using Evolutionary Computation Techniques]({{ site.url }}/assets/thesis/thesis.html).
 
-# Papers
+### Papers
 
 These are a few links to some of my favorite papers published in IEEE:
 
@@ -20,6 +20,6 @@ These are a few links to some of my favorite papers published in IEEE:
 
 You can find the remaining papers searching by author "L. Laguna" in IEEExplore.
 
-# Miscellaneous
+### Miscellaneous
 
 This is a blog we published about the ModelPlug library. [Using Arduinos as SystemModeler Components](http://blog.wolfram.com/2014/11/07/using-arduinos-as-systemmodeler-components/).
