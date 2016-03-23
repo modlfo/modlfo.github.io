@@ -27,7 +27,7 @@ tagline: Supporting tagline
   }
 </style>
 
-# Leonardo Laguna Ruiz, Phd
+# Leonardo Laguna Ruiz, PhD
 
 ---
 
