@@ -30,6 +30,9 @@ Pla is an OCaml library and ppx syntax extension to create composable templates 
 
 Pla creates (at compile-time) fast and easy templates that can be filled out to generate complex text.
 
+You can find the main page of the project here: [https://modlfo.github.io/pla/](https://modlfo.github.io/pla/)
+
+
 ---
 
 # Microbruto
