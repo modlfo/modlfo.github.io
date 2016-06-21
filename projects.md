@@ -24,6 +24,13 @@ ModelPlug is a library that I developed for SystemModeler. ModelPlug allows you 
 You can find the library page here: [http://www.wolfram.com/system-modeler/libraries/model-plug/](http://www.wolfram.com/system-modeler/libraries/model-plug/)
 
 ---
+![Pla]({{ site.url }}/assets/images/pla.png){: .cimg }
+
+Pla is an OCaml library and ppx syntax extension to create composable templates based on verbatim strings.
+
+Pla creates (at compile-time) fast and easy templates that can be filled out to generate complex text.
+
+---
 
 # Microbruto
 
