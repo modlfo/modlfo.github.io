@@ -75,6 +75,8 @@ body {
     display: block;
     border-radius: 5px;
     margin: 0 auto;
+    display: block;
+    max-width: 100%;
 }
 
 .center-figure {
