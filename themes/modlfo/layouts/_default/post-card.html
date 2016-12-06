@@ -1,0 +1,13 @@
+<div class="mdl-cell mdl-card mdl-shadow--4dp">
+   <div class="mdl-card__media card-image-background" style="background-image:url({{ .Params.image }})">
+   </div>
+   <div class="mdl-card__title card-title">
+      {{ .Title }}
+   </div>
+   <div class="mdl-card__supporting-text card-text">
+      <i class="fa fa-calendar" aria-hidden="true"></i> <b><time>{{ with .Site.Params.dateFormat }}{{ $.Date.Format . }}{{ else }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</time></b>      {{ .Summary }}
+   </div>
+   <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect readmore-text" href="{{ .RelPermalink }}"> Read more </a>
+   </div>
+</div>

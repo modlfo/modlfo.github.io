@@ -1,0 +1,14 @@
+<div class="mdl-cell mdl-card mdl-shadow--4dp">
+   <div class="mdl-card__media publication-title">
+      {{ .Title }}
+   </div>
+   <div class="mdl-card__title card-title">
+      {{ .Params.kind }}
+   </div>
+   <div class="mdl-card__supporting-text card-text">
+      {{ .Summary }}
+   </div>
+   <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect readmore-text" href="{{ .Params.link }}"> Read more </a>
+   </div>
+</div>

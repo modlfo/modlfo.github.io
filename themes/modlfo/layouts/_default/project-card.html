@@ -1,0 +1,19 @@
+<div class="mdl-cell mdl-card mdl-shadow--4dp">
+   {{if isset .Params "is_icon"}}
+   <div class="mdl-card__media card-icon-background">
+      <img class="article-image card-icon" src="{{ .Params.image }}" border="0" alt="">
+   </div>
+   {{else}}
+   <div class="mdl-card__media card-image-background" style="background-image:url({{ .Params.image }})">
+   </div>
+   {{end}}
+   <div class="mdl-card__title card-title">
+      {{ .Title }}
+   </div>
+   <div class="mdl-card__supporting-text card-text">
+      {{ .Summary }}
+   </div>
+   <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect readmore-text" href="{{ .RelPermalink }}"> Read more </a>
+   </div>
+</div>

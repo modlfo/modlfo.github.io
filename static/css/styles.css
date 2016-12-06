@@ -1,0 +1,194 @@
+.content p {
+   font-family: 'Domine', serif;
+   font-size: 18px;
+}
+
+a  {
+   color: #3299BB;
+}
+
+
+li {
+   font-family: 'Domine', serif;
+   font-size: 18px;
+}
+
+/*  quotes */
+blockquote {
+   background-color: #BCBCBC;
+   margin-left: 0px;
+   margin-right: 0px;
+   border-radius: 5px;
+}
+blockquote p {
+   margin: 0px;
+}
+
+blockquote:before {
+    content: no-open-quote;
+}
+blockquote:after {
+    content: no-close-quote;
+}
+
+h4 {
+   font-family: 'Montserrat', sans-serif;
+   color: #424242;
+   font-size: 16px;
+   font-style: italic;
+   margin-top: 5px;
+   text-align: center;
+}
+
+h3 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   color: #424242;
+}
+
+h2 {
+   font-family: 'Montserrat', sans-serif;
+   color: #424242;
+}
+
+body {
+   background-color: #E9E9E9;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.grid-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.post-date {
+   font-size: 18px;
+   display: inline-block;
+}
+
+/* for all figures */
+.center-figure img {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.center-figure {
+    border-radius: 5px;
+}
+
+/* --- Cards --- */
+
+.card-icon {
+   height: 80px;
+}
+
+.card-icon-background {
+   background-color: rgb(100%, 100%, 100%);
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+   height: 80px;
+}
+
+.card-image-background {
+   background-color: #424242;
+   overflow: hidden;
+   height: 80px;
+   width: 100%;
+}
+
+.card-text {
+   height: 120px;
+   color: #424242;
+   font-family: 'Domine', serif;
+}
+
+.card-title {
+   padding-left: 20px;
+   padding-top: 5px;
+   padding-bottom: 0px;
+   font-size:20px;
+   font-weight: bold;
+   background-color:#FF9900;
+}
+
+.readmore-text {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.footer-style {
+   color: #BCBCBC;
+   background-color: #424242;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.footer-style-elem {
+   background-color: #424242;
+}
+
+.header-style {
+   background-color: #424242;
+   color: #BCBCBC;
+   height: 50px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+   color: #E9E9E9;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+   color: #E9E9E9;
+}
+
+/* Publication cards */
+.publication-title {
+   padding: 5px;
+   padding-bottom: 0px;
+   font-size:13px;
+   background-color:#424242;
+   color: #E9E9E9;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   height: 75px;
+}
+
+/* -- Index page -- */
+
+/* background image in the index page */
+.index-image {
+   background: url(/images/back_alpha-min.png) center center fixed;
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   width:100%;
+   height: 100%;
+}
+
+/* containes the text in the index page */
+.main-index-div {
+   max-width: 900px;
+   margin: auto
+}
+
+/* in the index: Leonardo Laguna Ruiz */
+.main-title {
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 32px;
+   color: #E9E9E9;
+   padding-top: 40px;
+}
+
+/* in the index: hardware ... */
+.main-subtitle {
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 22px;
+   color: #BCBCBC;
+}
