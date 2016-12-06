@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog-rsses on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/blog/index.xml</link>
+    <description>Recent content in Blog-rsses on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Dec 2016 17:17:06 -0600</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vult at OpenFest Bulgaria</title>
+      <link>http://replace-this-with-your-hugo-site.com/blog/openfest-2016/</link>
+      <pubDate>Mon, 05 Dec 2016 17:17:06 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/blog/openfest-2016/</guid>
+      <description>&lt;p&gt;Last november I attended to the OpenFest 2016 in Bulgaria where I presented an overview of Vult.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;OpenFest is the biggest conference in Bulgaria focused on open technologies. The conference is held in Sofia. This is the second time I attend but the first time presenting there.&lt;/p&gt;
+
+&lt;p&gt;You can find the complete video of my presentation here:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;415&#34; src=&#34;https://www.youtube.com/embed/9_UQ0tUK2SQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In addition to the demos that I showed there. I also prepared a version of the closing song where I explain with more detail what happens in the screen.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;415&#34; src=&#34;https://www.youtube.com/embed/Q_qmTbsk5TA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;You can find the code, models and patches in the following repository: &lt;a href=&#34;https://github.com/modlfo/vult-examples&#34;&gt;Vult Examples&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Art &amp; Tech Meetup</title>
+      <link>http://replace-this-with-your-hugo-site.com/blog/art-tech-meetup/</link>
+      <pubDate>Sat, 22 Oct 2016 17:55:50 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/blog/art-tech-meetup/</guid>
+      <description>&lt;p&gt;Last 20 of October we organized the first Art &amp;amp; Tech Meetup at Hackafe Plovdiv.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/art&amp;#43;tech.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;The objective of this meet up is bringing people together for an eclectic range of ideas related to music, visuals or any artistic manifestation of technologies.&lt;/p&gt;
+
+&lt;p&gt;This meet up consist on a set of short presentations by the attendees in order to get immersed in the creativity of others. The presentations can be improvised or prepared.&lt;/p&gt;
+
+&lt;p&gt;What can you talk about?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;interesting projects that you have made,&lt;/li&gt;
+&lt;li&gt;ideas that can be further developed by the group,&lt;/li&gt;
+&lt;li&gt;presentations on the new developments on tools for making digital art,&lt;/li&gt;
+&lt;li&gt;tutorials on interesting tools,&lt;/li&gt;
+&lt;li&gt;live performances or demonstrations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We had very interesting presentations. Here&amp;rsquo;s a list of them:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;Introduction to VR - basic principles and creation of content&amp;rdquo; - Atanas Dinchev&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Voice effects&amp;rdquo; - Todor Arnaudov&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Audio synthesis everywhere&amp;rdquo; - Leonardo&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The perception of ancient cultural heritage nowadays. A walk-through the interactive installation Plovdiv Timeline&amp;rdquo; - Petko Tanchev&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Media and architecture projects&amp;rdquo; - Moritz Behrens  and Nina Valkanova&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/art&amp;#43;tech-pic1.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/art&amp;#43;tech-pic2.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creative Media Workshop</title>
+      <link>http://replace-this-with-your-hugo-site.com/blog/creative-media-workshop/</link>
+      <pubDate>Fri, 23 Sep 2016 18:28:33 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/blog/creative-media-workshop/</guid>
+      <description>&lt;p&gt;The Creative Media Workshop was a kind of Hackathon led by Barak Koren and Petko Tanchev.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/creative-media-workshop.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I applied for the event and was accepted. During the event, &lt;a href=&#34;https://barakooda3d.wordpress.com&#34;&gt;Barak Koren&lt;/a&gt; gave us an introduction to the software called &lt;a href=&#34;http://www.derivative.ca&#34;&gt;TouchDesigner&lt;/a&gt; which is used to do real-time video generation and processing. After the introduction to the software we had one and a half day to come up with an idea and complete a project.&lt;/p&gt;
+
+&lt;p&gt;I have always been a &amp;ldquo;audio&amp;rdquo; guy, but for the first time I had the opportunity to explore video generation. I had a clear idea about what I wanted to do, and teamed up with Ivona Ivanova who helped me develop the visuals. The project we developed was called &amp;ldquo;Visceral Dance&amp;rdquo;.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/visceral-dance.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/bAnOoREr0vo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The project was selected to be part of the exhibition at the Night of the Museums and Galleries in Plovdiv. You can read more about the event in &lt;a href=&#34;https://petkotanchev.wordpress.com/2016/11/20/creative-media-lab-of-plovdiv/&#34;&gt;Petko Tanchev&amp;rsquo;s&lt;/a&gt; and &lt;a href=&#34;https://barakooda3d.wordpress.com/2016/10/03/plovdiv-media-workshop/&#34;&gt;Barak Koren&amp;rsquo;s&lt;/a&gt; blogs.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects-rsses on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/projects/index.xml</link>
+    <description>Recent content in Projects-rsses on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Dec 2016 13:22:37 -0600</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vult</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult/</link>
+      <pubDate>Mon, 05 Dec 2016 13:22:37 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult/</guid>
+      <description>&lt;p&gt;Vult is a simple programming language made to produce high-performance algorithms that can run on small processors like Arduinos.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Vult provides features that simplify developing DSP algorithms, for example audio effects and synthesizers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pla</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/pla/</link>
+      <pubDate>Fri, 02 Dec 2016 13:53:14 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/pla/</guid>
+      <description>&lt;p&gt;Pla is an OCaml library and ppx syntax extension to create composable templates based on verbatim strings.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Pla creates (at compile-time) fast and easy templates that can be filled out to generate complex text.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ModelPlug</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/modelplug/</link>
+      <pubDate>Fri, 02 Dec 2016 13:45:39 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/modelplug/</guid>
+      <description>&lt;p&gt;ModelPlug is a library for SystemModeler. ModelPlug allows you to connect simulation models with Arduino boards and use them to input/output signals.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>3D Models</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/3dmodels/</link>
+      <pubDate>Wed, 05 Oct 2016 16:54:50 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/3dmodels/</guid>
+      <description>&lt;p&gt;These are a few models that I have designed for different applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;These models are in the Hackafe repository.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/3dmodels.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Clamp for the projector&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/filament-cleaner.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Filament cleaner&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/webcam-cover.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Webcam Cover&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Microbruto</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/microbruto/</link>
+      <pubDate>Mon, 02 Dec 2013 14:04:01 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/microbruto/</guid>
+      <description>&lt;p&gt;The MicroBruto is a digital synthesizer with controllers inspired by the MicroBrute.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried to imitate the functions of the oscillator, the envelope, filter, LFO and most important: the modulation matrix.&lt;/p&gt;
+
+&lt;p&gt;I have been watching demos and reviews of the Arturia MicroBrute and it seems like a very interesting synthesizer. It’s analog, cheap and flexible. But before even thinking about getting one, I wanted to “experience” the user interface. That’s why I decided to make the MicroBruto. ‘Bruto’ in Spanish can be translated as gross or stupid, but I have to clarify that the name does not reflects my option about the synthesizer. I just thought it was funny.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/microbrute.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Arturia MicroBrute&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The MicroBruto is not an emulation, is just a digital synthesizer with controllers inspired by the MicroBrute. I tried to imitate the functions of the oscillator, the envelope, filter, LFO and most important: the modulation matrix.&lt;/p&gt;
+
+&lt;p&gt;Here you can see a screenshot:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/microbruto.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;MicroBruto&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The beauty of this synthesizer is that is does not need a manual. That’s why it is a Simplesizer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mocotron</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/mocotron/</link>
+      <pubDate>Sun, 02 Dec 2012 14:04:07 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/mocotron/</guid>
+      <description>&lt;p&gt;Mocotron is an imitation of the Monotron synthesizer made in Reaktor.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monotron.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Monotron&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I really like this small synthesizer because it sounds very natural. I love the analog sound.&lt;/p&gt;
+
+&lt;p&gt;This is my version:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/mocotron.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Mocotron&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The whole model was made using Reaktor Core what makes it very cpu-efficient.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/mocotron_internals.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Mocotron internal structure&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monoblep-Meblitron</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/monoblep-meblitron/</link>
+      <pubDate>Fri, 02 Dec 2011 14:04:38 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/monoblep-meblitron/</guid>
+      <description>&lt;p&gt;This is a hybrid synthesizer that I hacked during the MIDIHACK 2014 in Stockholm.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This synthesizer combines a Monotron and a Meeblip. Both synthesizers are controlled by a Raspberry Pi which receives OSC messages.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-story&#34;&gt;The story&lt;/h3&gt;
+
+&lt;p&gt;Last May 17-18 I attended to the MIDI HACK, which is by far the coolest Hackathon out there (IMO). Is not that I have been in others, but this one matched perfectly the kind of hacks that I like to make.&lt;/p&gt;
+
+&lt;p&gt;I had a great time surrounded by people with the same obsessions as me: music, electronics and computers. The event was great, it had nice food, a lot of drinks, coffee and the most important thing: the aura.&lt;/p&gt;
+
+&lt;p&gt;At the beginning I had no idea what I was going to build. So I spend the first three hours moving ideas in my brain and trying to come up with something feasible and not repeated. After looking at my bag I decided to do something that I wanted to do two years back…&lt;/p&gt;
+
+&lt;p&gt;I had in my bag a Monotron, a Meeblip and some Arduinos. So I decided to put them together and add some extra sauce by connecting a Raspberry Pi to handle OSC messages.&lt;/p&gt;
+
+&lt;p&gt;After some hours I decided to drop the Raspberry Pi because I couldn’t connect it to the Spotify’s  WIFI but it works fine otherwise.&lt;/p&gt;
+
+&lt;p&gt;This is a picture of the project:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monobleep-meeblitron.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Monoblep-Meblitron&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;And this is a more detailed diagram of the connections.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monobleep-meeblitron-diagram.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Diagram&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;So, The RPi runs Node.js and connects to the Arduinos by using the Arduino Firmata. One of the Arduinos sends CV signals to the Monotron in order to control the gate, pitch and cutoff. The second Arduino connects to a custom-made board containing knobs, buttons and LEDs.&lt;/p&gt;
+
+&lt;p&gt;The Meeblip is connected by using a standard USB to MIDI converter. The audio of the Meeblip is fed into the Monotron and it uses a potentiometer to control the amount of audio.&lt;/p&gt;
+
+&lt;p&gt;The custom controller is used to adjust a few of the parameters of the Meeblip.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FirmataTest.js</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/firmata-test-js/</link>
+      <pubDate>Thu, 02 Dec 2010 14:05:11 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/firmata-test-js/</guid>
+      <description>&lt;p&gt;This is a small program that I made to learn/test Atom-shell (now Electron) and Angular.js. This program allows you to communicate and configure Firmata boards like Arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/firmata-test-js.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Firmata-Test.js screenshot&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ocaml Firmata</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/ocaml-firmata/</link>
+      <pubDate>Wed, 02 Dec 2009 15:57:07 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/ocaml-firmata/</guid>
+      <description>&lt;p&gt;This is a Ocaml library that allows you to access Firmata boards.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The library supports all basic features of the Firmata protocol. I mainly run it on the Rapspberry Pi to communicate with Arduino boards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Teensy Braids</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/teensy-braids/</link>
+      <pubDate>Tue, 02 Dec 2008 15:57:17 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/teensy-braids/</guid>
+      <description>&lt;p&gt;I took the source code of the Mutable-Intruments Braids and adapted it to a Teensy board with a nice OLED display. Then I 3D-printed a case and made it a cool synthesizer.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/teensy-braids.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Braids in a custom case&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>HMH Mixer</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/hmh-mixer/</link>
+      <pubDate>Sun, 02 Dec 2007 15:57:30 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/hmh-mixer/</guid>
+      <description>&lt;p&gt;This is an educational project I made to get a better understanding on mixing sound.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can use this file with Max (&lt;a href=&#34;https://cycling74.com/products/max/&#34;&gt;Download Here&lt;/a&gt;). You can use the trial version and after the trial ends you can still run the patch but you cannot make modifications to it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mixing is all about hearing but it’s always ok to  get a little help from the eyes; that’s the place of spectrum analyzers.  When mixing two sounds we have to be careful on how they interact with  each other in frequency domain. A bad mix may have moments in which certain frequencies get to loud or where one sound shadows the presence of other.&lt;/p&gt;
+
+&lt;p&gt;Being capable of detecting (and fixing) those problems of a mix requires training and talent. Since I don’t have to much training yet (lets not talk about the talent) I made this program to help me hear. The HMH (Help-Me-Hear) Mixer provides features that can help you in times of doubt.&lt;/p&gt;
+
+&lt;p&gt;This is a screenshot of the interface:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;HMH Mixer&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The HMH Mixer was inspired by the youtube tutorial of dude837: &lt;a href=&#34;http://www.youtube.com/watch?v=69A1kGNFYIc&#34;&gt;Pfft~ is your friend&lt;/a&gt; where he explains the use of the pfft~ object in Max.&lt;/p&gt;
+
+&lt;p&gt;The program has can load two audio files (A and B). Use the “Open” button to load your files, and select “Loop” if you want your files to repeat when they end. With the level you can control the volume.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix_channels.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Channels&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;When playing the files you can see a spectrogram of both files where the “x” axis is the frequency and “y” is the time.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-spectrum.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Scpectrum view&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Below the spectograms we have a filter that is applied to channel B only. Later I will explain the purpose of this filter.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-filter.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Filter&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;At the bottom we have the master section where we can start reproducing the sounds and see the spectrogram of the mixed signals.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-fmaster.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Master Mixer&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The master signal has 4 different play modes:&lt;/p&gt;
+
+&lt;h3 id=&#34;a-b-mix&#34;&gt;A+B Mix&lt;/h3&gt;
+
+&lt;p&gt;This mode mixes the A and B sounds. What you hear is simply the sum of the sounds.&lt;/p&gt;
+
+&lt;h3 id=&#34;overlap&#34;&gt;Overlap&lt;/h3&gt;
+
+&lt;p&gt;In this mode the magic starts happening. This mode is controlled by the “Threshold” slider. Set it as low as possible and increase it gradually. As you increase it you will hear only the frequencies that the two sounds have in common. The first frequencies that are heard are the ones that once overlapped are above the threshold. These frequencies are the ones that overlap and have a high volume. If you play a kick drum and a bass, you will hear how they interfere specially in the low end. This is what we have to prevent when mixing.&lt;/p&gt;
+
+&lt;p&gt;Using the spectrogram we can determine if there are specific moments in which the overlap is higher.&lt;/p&gt;
+
+&lt;h3 id=&#34;b-auto&#34;&gt;B Auto&lt;/h3&gt;
+
+&lt;p&gt;This mode uses the amplitude of the frequencies that overlap and applies a reduction (filtering) of the signal B. This acts as a frequency compressor. The reduction is controlled by the “Reduction” slider, the higher it is the more that the overlapped frequencies are taken from the B signal.&lt;/p&gt;
+
+&lt;p&gt;This is interesting because you can hear how the signal B need to filtered in order to reduce the overlapped frequencies.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-b-auto&#34;&gt;A+B Auto&lt;/h3&gt;
+
+&lt;p&gt;In this mode you can hear the signal of “B Auto” mixed with the channel A. This would be a kind of “very good blend” of the two sounds. The xix is not perfect, but listening to this will give you an idea of how it should sound if the common frequencies do not affect too much.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned before, you can achieve this results by using a side-chained  frequency compressor. But I think that those kind of plugins would consume a lot of processing power in a DAW (correct me if I’m wrong). I would like to fix the mix problem by using the tools that are already available in my DAW, that are basically compressors and equalizers. That’s the purpose of the Filter in the B channel. I play with the filter in order to reduce the offending frequencies in channel B and reduce the overlapping. So once I have a decent sound using only the filter, I copy the setting of the filter to my DAW.&lt;/p&gt;
+
+&lt;p&gt;Feel free to play with the program and let me know if you have any suggestions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MeeBlip Editor</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</link>
+      <pubDate>Sat, 02 Dec 2006 15:57:43 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</guid>
+      <description>&lt;p&gt;This is an editor for the Meeblip synthesizer. I use it with the Meeblip micro.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can use this file with Max (&lt;a href=&#34;https://cycling74.com/products/max/&#34;&gt;Download Here&lt;/a&gt;). You can use the trial version and after the trial ends you can still run the patch but you cannot make modifications to it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some time ago I got a Meeblip Micro &lt;a href=&#34;http://meeblip.com/&#34;&gt;http://meeblip.com/&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/meeblip-micro.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;MeeBlip Micro&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Since I got the Micro version, I does not have any controls. However it is possible to control it via MIDI. I made a simple editor using Max. This is how it looks like:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/meeblipeditor.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;MeeBlip Micro&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Water Bobot</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</link>
+      <pubDate>Fri, 02 Dec 2005 15:57:54 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</guid>
+      <description>&lt;p&gt;I assembled this project using the Rover 5. It uses an Arduino for the low-level control (current balancing, speed control) and a Raspberry Pi to receive OSC messages.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/bobot1.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Rover 5 controlled with Arduino Mega&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I prototyped the whole thing with Max, but the final version uses PD in the Raspberry Pi. It also works with Mira.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/bobot2.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Prototype control using Max and Mira&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extendra</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/extendra/</link>
+      <pubDate>Thu, 02 Dec 2004 15:58:03 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/extendra/</guid>
+      <description>&lt;p&gt;I made this board to add more I/O to other projects. It uses a PIC16F1516 and is controlled by I2C.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem was very simple: adding more I/O to any of my boards (XMOS, Arduino, ChipKit, etc.) And the solution could have been simple as well: buying a board to do that, like a cheap Arduino clone or any other alternative that I don’t know.&lt;/p&gt;
+
+&lt;p&gt;But this time I decided to do the hard (and fun) way. I designed my own board.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/extendra.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Extendra PCB&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I have made other PCB’s before, mostly etched and milled boards, but I never made a manufactured PCB. I decided to do it this way because I found that SeeedStudio sells very affordable PCB’s. So I started reading an Eagle tutorial (I used Altium at the University) and I found very little intuitive. Anyway, there’s a lot information about it and in a few hours I got my design and ordered the PCB.&lt;/p&gt;
+
+&lt;p&gt;I made a few mistakes, for example not labeling all the components and connectors. But electrically was correct.&lt;/p&gt;
+
+&lt;p&gt;I decided to use a PIC microcontroller the PIC16F1516. Why? because it has many analog inputs, low speed and cheap. However I found a few problems. I wanted to make an SPI Daisy chain, but seems that the PIC produces an interrupt every time a new byte is received and not when the chip is deselected (using the CS pin). The second problem is that the C compiler that Microchip provides for free practically performs no optimization. So if you check the generated assembly code it hurts your eyes. For any future project I will use AVR because they have free tools that are much better.&lt;/p&gt;
+
+&lt;p&gt;Apart from that, the board works correctly. I made two versions, one that is configurable using basic command like a Firmata board and other that makes a faster dump of values.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HackPrism</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/hackprism/</link>
+      <pubDate>Tue, 02 Dec 2003 15:58:11 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/hackprism/</guid>
+      <description>&lt;p&gt;This is program inspired by the app SoundPrism. It does no have all the features of SoundPrism but it allows you hack the code and personalize it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Soundprism is a software midi controller that simplifies playing chords. I tried it and in a few minutes I was making nice songs. The best part is that, using the iPad, you have the multitouch screen and it feels really natural playing that thing.&lt;/p&gt;
+
+&lt;p&gt;I decided making my own basic version using &lt;a href=&#34;https://processing.org&#34;&gt;Processing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My version is very basic and does not include any of the nice features available in the Pro version of SoundPrism. This is a screen shot:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hackprism.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;HackPrism&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
