@@ -6,8 +6,44 @@
     <description>Recent content in Blog-rsses on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Dec 2016 17:17:06 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 22 Dec 2016 17:55:50 -0600</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talk at Technology Institute of Celaya</title>
+      <link>http://replace-this-with-your-hugo-site.com/blog/itc-talk/</link>
+      <pubDate>Thu, 22 Dec 2016 17:55:50 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/blog/itc-talk/</guid>
+      <description>&lt;p&gt;Last 9th of December I gave a talk at the Technology Institute of Celaya (Instituto Tecnológico de Celaya).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;It was very important for me because this was the university where I graduated in 2005 as an engineer in electronics.&lt;/p&gt;
+
+&lt;p&gt;My talk was part of a series of presentations related to research topics. In my case, even though I have done a lot of research, I choose not to focus on that. Instead, what I prepared was a smörgåsbord (to use a Swedish word) of cool stuff where I tried to catch the attention of the students.&lt;/p&gt;
+
+&lt;p&gt;The first suggestion I received was to change the name of the presentation; I decided to keep the original title: &amp;ldquo;A life voiding warranties&amp;rdquo; or in Spanish &amp;ldquo;Una vida invalidando garantías&amp;rdquo;. This was funny for me because the name does describe my life: for every electronic product I got I felt the need to open it to see what&amp;rsquo;s inside.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/itc2.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;In the first part of my presentation I focused on my professional life: the project that I have developed over the years and my current tasks. In the second part I presented my &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/projects/&#34;&gt;free-time projects&lt;/a&gt; and my experiences from working in hacker-spaces, mainly in &lt;a href=&#34;http://www.hackafe.org/events.html&#34;&gt;Hackafe Plovdiv&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I finished my presentation with a few tips that I think, personally, that have helped me during my life. Let me share some of the tips with you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Be naive&lt;/em&gt; : when solving a problem, before thinking too much about it, try to come up with a naive solution. Thinking too much about the purpose of what I develop, stops me from doing new things&amp;hellip; because I start finding reasons not to do it. One of the biggest examples were my beginnings with Functional Programming. Out of curiosity I started to learn it, and it&amp;rsquo;s what have had the strongest impact in my professional life.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Keep yourself up-to-date&lt;/em&gt; : this is one of the most difficult things to do because nowadays there are tons of information on the web. I try to dig into many topics: different technologies, science, arts, design and psychology. Extrapolating ideas is easier when you get to know various ways of thinking.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Share&lt;/em&gt; : During my student life I have met many people who think that keeping their knowledge in a sealed box will make them better than the other. On the contrary, for me, sharing my knowledge has always been a way to learn things better. That&amp;rsquo;s why I helped my classmates when studying for exams; teaching is the best way of learning.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Vult at OpenFest Bulgaria</title>
