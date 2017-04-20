@@ -6,8 +6,103 @@
     <description>Recent content in Projects-rsses on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Dec 2016 13:22:37 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 20 Apr 2017 22:30:20 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Steiner-Parker VCF</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</link>
+      <pubDate>Thu, 20 Apr 2017 22:30:20 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</guid>
+      <description>&lt;p&gt;This is my version of a Steiner-Parker VCF for Eurorack format. This implementation is based on the design by Yves Usson (Yusynth).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know the story. I&amp;rsquo;m trying to build my own Eurorack synthesizer&amp;hellip; and by build I mean creating all the modules. Most of the modules (and synthesizers) that I have built are hand-soldered in perfboards. For this module, I wanted something more &amp;ldquo;professional&amp;rdquo; looking. That&amp;rsquo;s why I decided to design and manufacture the PCBs. In this case I used CircuitMaker.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-2.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult-Analog Steiner-Parker VCF&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;You can find the original design here &lt;a href=&#34;http://yusynth.net/Modular/index_en.html&#34;&gt;Yusynth&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The module consist of three boards: a panel, a control board and the analog board. If you want to make your own, you can find my original design files here.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-Filter&#34;&gt;Analog Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-control-board&#34;&gt;Control Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-panel&#34;&gt;Panel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-vcf-boards.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;The three boards&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Signal Buffer</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</link>
+      <pubDate>Thu, 20 Apr 2017 22:08:00 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</guid>
+      <description>&lt;p&gt;This is a very simple module that I made to protect other signal generators just in case I make a mistake. A simple active buffer with a few operational amplifiers.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Active signal buffer for Eurorack&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;This is the most basic circuit that you can make with operational amplifiers, but repeated several times.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Schematic of the signal buffer&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;A PDF version of the schematic can be downloaded here &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.pdf&#34;&gt;Schematic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Even when the circuit is simple, it took me about 3 hours to wire it and make the panel.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Vult</title>
@@ -538,73 +633,6 @@
     
     &lt;figcaption&gt;
         &lt;h4&gt;Prototype control using Max and Mira&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Extendra</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/extendra/</link>
-      <pubDate>Thu, 02 Dec 2004 15:58:03 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/extendra/</guid>
-      <description>&lt;p&gt;I made this board to add more I/O to other projects. It uses a PIC16F1516 and is controlled by I2C.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem was very simple: adding more I/O to any of my boards (XMOS, Arduino, ChipKit, etc.) And the solution could have been simple as well: buying a board to do that, like a cheap Arduino clone or any other alternative that I don’t know.&lt;/p&gt;
-
-&lt;p&gt;But this time I decided to do the hard (and fun) way. I designed my own board.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/extendra.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Extendra PCB&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;I have made other PCB’s before, mostly etched and milled boards, but I never made a manufactured PCB. I decided to do it this way because I found that SeeedStudio sells very affordable PCB’s. So I started reading an Eagle tutorial (I used Altium at the University) and I found very little intuitive. Anyway, there’s a lot information about it and in a few hours I got my design and ordered the PCB.&lt;/p&gt;
-
-&lt;p&gt;I made a few mistakes, for example not labeling all the components and connectors. But electrically was correct.&lt;/p&gt;
-
-&lt;p&gt;I decided to use a PIC microcontroller the PIC16F1516. Why? because it has many analog inputs, low speed and cheap. However I found a few problems. I wanted to make an SPI Daisy chain, but seems that the PIC produces an interrupt every time a new byte is received and not when the chip is deselected (using the CS pin). The second problem is that the C compiler that Microchip provides for free practically performs no optimization. So if you check the generated assembly code it hurts your eyes. For any future project I will use AVR because they have free tools that are much better.&lt;/p&gt;
-
-&lt;p&gt;Apart from that, the board works correctly. I made two versions, one that is configurable using basic command like a Firmata board and other that makes a faster dump of values.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>HackPrism</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/hackprism/</link>
-      <pubDate>Tue, 02 Dec 2003 15:58:11 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/hackprism/</guid>
-      <description>&lt;p&gt;This is program inspired by the app SoundPrism. It does no have all the features of SoundPrism but it allows you hack the code and personalize it.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Soundprism is a software midi controller that simplifies playing chords. I tried it and in a few minutes I was making nice songs. The best part is that, using the iPad, you have the multitouch screen and it feels really natural playing that thing.&lt;/p&gt;
-
-&lt;p&gt;I decided making my own basic version using &lt;a href=&#34;https://processing.org&#34;&gt;Processing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My version is very basic and does not include any of the nice features available in the Pro version of SoundPrism. This is a screen shot:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hackprism.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;HackPrism&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     

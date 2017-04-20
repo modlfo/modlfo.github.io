@@ -6,8 +6,103 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Dec 2016 17:55:50 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 20 Apr 2017 22:30:20 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Steiner-Parker VCF</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</link>
+      <pubDate>Thu, 20 Apr 2017 22:30:20 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</guid>
+      <description>&lt;p&gt;This is my version of a Steiner-Parker VCF for Eurorack format. This implementation is based on the design by Yves Usson (Yusynth).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know the story. I&amp;rsquo;m trying to build my own Eurorack synthesizer&amp;hellip; and by build I mean creating all the modules. Most of the modules (and synthesizers) that I have built are hand-soldered in perfboards. For this module, I wanted something more &amp;ldquo;professional&amp;rdquo; looking. That&amp;rsquo;s why I decided to design and manufacture the PCBs. In this case I used CircuitMaker.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-2.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult-Analog Steiner-Parker VCF&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;You can find the original design here &lt;a href=&#34;http://yusynth.net/Modular/index_en.html&#34;&gt;Yusynth&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The module consist of three boards: a panel, a control board and the analog board. If you want to make your own, you can find my original design files here.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-Filter&#34;&gt;Analog Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-control-board&#34;&gt;Control Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-panel&#34;&gt;Panel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-vcf-boards.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;The three boards&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Signal Buffer</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</link>
+      <pubDate>Thu, 20 Apr 2017 22:08:00 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</guid>
+      <description>&lt;p&gt;This is a very simple module that I made to protect other signal generators just in case I make a mistake. A simple active buffer with a few operational amplifiers.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Active signal buffer for Eurorack&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;This is the most basic circuit that you can make with operational amplifiers, but repeated several times.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Schematic of the signal buffer&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;A PDF version of the schematic can be downloaded here &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.pdf&#34;&gt;Schematic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Even when the circuit is simple, it took me about 3 hours to wire it and make the panel.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Talk at Technology Institute of Celaya</title>
@@ -201,28 +296,6 @@ You can find me in Linkedin at Leonardo Laguna Ruiz
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>projects</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/</link>
-      <pubDate>Sat, 03 Dec 2016 08:55:28 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pla</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/pla/</link>
-      <pubDate>Fri, 02 Dec 2016 13:53:14 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/pla/</guid>
-      <description>&lt;p&gt;Pla is an OCaml library and ppx syntax extension to create composable templates based on verbatim strings.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Pla creates (at compile-time) fast and easy templates that can be filled out to generate complex text.&lt;/p&gt;</description>
     </item>
     
   </channel>
