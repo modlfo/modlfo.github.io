@@ -35,14 +35,16 @@
 &lt;/figure&gt;
 
 
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/c74hJdPacnU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;You can find the original design here &lt;a href=&#34;http://yusynth.net/Modular/index_en.html&#34;&gt;Yusynth&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The module consist of three boards: a panel, a control board and the analog board. If you want to make your own, you can find my original design files here.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-Filter&#34;&gt;Analog Board&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-control-board&#34;&gt;Control Board&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://circuitmaker.com/Projects/Details/Leonardo-Laguna-Ruiz/Steiner-Parker-panel&#34;&gt;Panel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker.zip&#34;&gt;Analog Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker-control.zip&#34;&gt;Control Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker-panel.zip&#34;&gt;Panel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -53,6 +55,140 @@
     
     &lt;figcaption&gt;
         &lt;h4&gt;The three boards&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;But before making your own you have to be aware that this initial design is not perfect. So keep reading.&lt;/p&gt;
+
+&lt;h3 id=&#34;building-your-own&#34;&gt;Building your own&lt;/h3&gt;
+
+&lt;p&gt;This are the schematics of the filter:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-diagram.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Steiner-Parker main board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-control.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Steiner-Parker control board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;These are the schematics in PDF format &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-diagram.pdf&#34;&gt;main&lt;/a&gt;, &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-control.pdf&#34;&gt;control&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Regarding the components, I got practically all of them from &lt;a href=&#34;https://www.musikding.de&#34;&gt;Musikding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This filter uses a pair of matched transistors. Yves recommends BC547C or a 2SC1583. In my case I used a THAT300P14 which contains 4 transistors (two of them are unused). If you have a pair of matched transistors you can use them instead. As you can see in the picture below, the trimpots are precision trimpots.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-back.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Main board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;One mistake that I made in the first (and only) batch of the board was an incorrect trace. The good thing is that it&amp;rsquo;s very easy to fix. I incorrectly connected the feedback of the resonance control to the wrong pin of the opamp. You can see the fix in the picture below.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-fix.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fix for the first batch of boards&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;My second mistake was when buying the jacks. I designed the PCB for these jacks (Lumberg 1502 03), since I had a few of them:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/jack1.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Matching jacks&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;But the ones I bought were:&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/jack2.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Alternative jacks (requires some fixing)&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Since the pins do not match I had to adapt them by cutting the original pins and soldering new pins that matched the originals.&lt;/p&gt;
+
+&lt;p&gt;One part that I didn&amp;rsquo;t have when designing the board was the filter mode selector. In the original design Yves uses 3P4T rotary switch. I was not sure that I could easily find it, therefore I made a big hole in the PCB and exposed the pins (one source and three destinations: LP, BP, HP). That way I could adapt any switch I could get. At the end I used a Mini rotary switch 2P3T from &lt;a href=&#34;https://www.musikding.de/index.php?a=2761&amp;amp;bewertung_anzeigen=1&#34;&gt;Musikding&lt;/a&gt;. Using this switch you can not have the all-pass mode of the filter.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-switch.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Connecting a 2P3T switch&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-front.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Control board&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -178,7 +314,7 @@
       <pubDate>Mon, 05 Dec 2016 13:22:37 -0600</pubDate>
       
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult/</guid>
-      <description>&lt;p&gt;Vult is a simple programming language made to produce high-performance algorithms that can run on small processors like Arduinos.&lt;/p&gt;
+      <description>&lt;p&gt;Vult is a simple programming language made to generate high-performance DSP code that can run on small processors like Arduinos.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
