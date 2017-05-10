@@ -6,8 +6,57 @@
     <description>Recent content in Projects-rsses on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Apr 2017 22:30:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 May 2017 22:24:08 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vult Generic Module</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</link>
+      <pubDate>Wed, 10 May 2017 22:24:08 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</guid>
+      <description>&lt;p&gt;This is a test module that I use to try different synthesis algorithms coded in Vult. The module uses a Teensy 3.2 and provides Eurorack voltages.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-1.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;To build this module I got a prototyping board from &lt;a href=&#34;http://synovatron.blogspot.se/p/products.html&#34;&gt;Synovatron&lt;/a&gt; that provided jacks, knobs, panel and PCBs where you can solder whatever you want.&lt;/p&gt;
+
+&lt;p&gt;The module uses the analog output of the Teensy and pass it through an amplification stage with two opamps in order to provide voltages in the range -10 to +10 V. Four potentiometers are connected to the analog inputs. The panel provides one gate input (plus a push button) and a few other switches. Unfortunately this module does not support any CV input.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-2.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The following video shows it in action while running a model of a 909 kick drum.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8ULGrG8E2pg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately this module does not support any CV input.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Steiner-Parker VCF</title>
@@ -729,46 +778,6 @@
     
     &lt;figcaption&gt;
         &lt;h4&gt;MeeBlip Micro&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Water Bobot</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</link>
-      <pubDate>Fri, 02 Dec 2005 15:57:54 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</guid>
-      <description>&lt;p&gt;I assembled this project using the Rover 5. It uses an Arduino for the low-level control (current balancing, speed control) and a Raspberry Pi to receive OSC messages.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/bobot1.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Rover 5 controlled with Arduino Mega&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;I prototyped the whole thing with Max, but the final version uses PD in the Raspberry Pi. It also works with Mira.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/bobot2.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Prototype control using Max and Mira&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     

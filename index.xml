@@ -6,8 +6,57 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Apr 2017 22:30:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 May 2017 22:24:08 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vult Generic Module</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</link>
+      <pubDate>Wed, 10 May 2017 22:24:08 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</guid>
+      <description>&lt;p&gt;This is a test module that I use to try different synthesis algorithms coded in Vult. The module uses a Teensy 3.2 and provides Eurorack voltages.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-1.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;To build this module I got a prototyping board from &lt;a href=&#34;http://synovatron.blogspot.se/p/products.html&#34;&gt;Synovatron&lt;/a&gt; that provided jacks, knobs, panel and PCBs where you can solder whatever you want.&lt;/p&gt;
+
+&lt;p&gt;The module uses the analog output of the Teensy and pass it through an amplification stage with two opamps in order to provide voltages in the range -10 to +10 V. Four potentiometers are connected to the analog inputs. The panel provides one gate input (plus a push button) and a few other switches. Unfortunately this module does not support any CV input.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-2.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The following video shows it in action while running a model of a 909 kick drum.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8ULGrG8E2pg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately this module does not support any CV input.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Steiner-Parker VCF</title>
@@ -403,35 +452,6 @@
       
       <guid>http://replace-this-with-your-hugo-site.com/music/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://replace-this-with-your-hugo-site.com/about/</link>
-      <pubDate>Sat, 03 Dec 2016 11:46:13 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
-      <description>&lt;div class=&#34;mdl-grid&#34;&gt;
-  &lt;div class=&#34;mdl-cell mdl-cell--8-col&#34;&gt;
-  &lt;p&gt;
-  I’m was born in Mexico in the state of Guanajuato. I got my first degree there, and later I moved to Spain to continue my studies.
-  &lt;/p&gt;
-&lt;p&gt;
-Currently live in Sweden where I work at Wolfram. I develop the simulation core of SystemModeler.
-&lt;/p&gt;
-&lt;p&gt;
-In my free time I produce music and make software and hardware related to sound synthesis.
-&lt;/p&gt;
-&lt;p&gt;
-You can find me in Linkedin at Leonardo Laguna Ruiz
-&lt;/p&gt;
-&lt;/div&gt;
-  &lt;div class=&#34;mdl-cell mdl-cell--2-col&#34;&gt;
-   &lt;img src = &#34;/images/modlfo.png&#34;/&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
