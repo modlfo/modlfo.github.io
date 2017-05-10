@@ -12,3 +12,4 @@ This was the first programs that I made in the HP49G+ calculator using the C com
 
 {{< figure src="/images/quinehp.gif" title="QuineHp" class="center-figure" >}}
 
+You can find the source code in my [github page](https://github.com/modlfo/quinehp).

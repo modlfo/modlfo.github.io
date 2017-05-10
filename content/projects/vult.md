@@ -7,7 +7,7 @@ layout = "project-page"
 link = "http://modlfo.github.io/vult"
 +++
 
-Vult is a simple programming language made to produce high-performance algorithms that can run on small processors like Arduinos.
+Vult is a simple programming language made to generate high-performance DSP code that can run on small processors like Arduinos.
 
 <!--more-->
 
