@@ -50,6 +50,12 @@ Once the Monotron-Kills is mounted you cannot see the mess that lies behind.
 
 {{< figure src="/images/vult-analog-monotron-final.png" title="Monotron-Kills mounted" class="center-figure" >}}
 
+
+Here you can hear a demo of the module.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3EoyLmH_5hY" frameborder="0" allowfullscreen></iframe>
+
+
 In retrospective, these are some of the things that can be improved:
 
 - Desing a PCB to mount all pots and jacks. This PCB should make easy to mount the Monotron board and the adapter.
