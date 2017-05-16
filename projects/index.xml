@@ -6,8 +6,154 @@
     <description>Recent content in Projects-rsses on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 May 2017 22:24:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2017 19:30:49 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Monotron Eurorack Mod</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</link>
+      <pubDate>Tue, 16 May 2017 19:30:49 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</guid>
+      <description>&lt;p&gt;More than six years after I bought my Korg Monotron, I decided to make a mod to put it in my Eurorack.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-banner.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Monotron-Kills&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;This is something that has been already done before by other persons. A search shows the &lt;a href=&#34;http://pulplogic.com/product/monotron-kit/&#34;&gt;Pulp Logic kit&lt;/a&gt; and also some threads in MuffWiggler. However, I intentionally avoided looking at this pages since I wanted to figure it out by myself. I called my mod Monotron-Kills.&lt;/p&gt;
+
+&lt;p&gt;By looking at the schematics and making a few measurements I defined the necessary things to adapt it. Since the Monotron works in a low voltage my approach was to adapt the input and output voltages to support the plus minus twelve volts of the Eurorack.&lt;/p&gt;
+
+&lt;p&gt;The first step was to remove one capacitor of the Monotron in order to break the connection of the VCO to the VCF. In the picture you can see the cap I removed.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-fix.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;One capacitor removed to break VCO-&amp;gt;VCF&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I also removed the &amp;lsquo;standby/pitch/cuttoff&amp;rsquo; switch in order to break the connections from the LFO to the VCF or VCO. I put in place a wire to keep the Monotron ON the whole time. I removed all the potentiometers in the board and also the volume control. Once all afore mentioned components were removed I soldered wires to get the following inputs/outputs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VCO output: the point is labeled on the PCB&lt;/li&gt;
+&lt;li&gt;LFO output: labeled on the PCB&lt;/li&gt;
+&lt;li&gt;VCF output: this one is taken from one of the pads of the volume control&lt;/li&gt;
+&lt;li&gt;VCO Pitch: labeled on the PCB&lt;/li&gt;
+&lt;li&gt;VCF Cutoff: labeled on the PCB&lt;/li&gt;
+&lt;li&gt;Gate: labeled on the PCB&lt;/li&gt;
+&lt;li&gt;VCF input: lower pad of the removed capacitor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using these terminals is possible to get one VCO, VCF and LFO from the Monotron. The following image show the circuit I designed to adapt it.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-kills-schematic.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Schematic of the Eurorack adapter&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Here you can get the &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-kills-schematic.pdf&#34;&gt;PFD version of the schematic&lt;/a&gt;. In the schematic the component U3 represents the Monotron board.&lt;/p&gt;
+
+&lt;p&gt;Since the main circuit used 6 opamps and I had 8 available I decided to add PWM output from the VCO. I also added two jacks to add CV control to the PWM and the VCF.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-pbc.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Panel and adapter board&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Based on this schematic I designed a PCB which I intended to use just for testing purposes. But once I wired all and checked that everything worked I got lazy and didn&amp;rsquo;t tear apart the prototype. So I designed a panel to mount my ugly prototype.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-b.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Prototype mounted to the panel (Monotron side)&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-a.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Prototype mounted to the panel (adapter side)&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Once the Monotron-Kills is mounted you cannot see the mess that lies behind.&lt;/p&gt;
+
+
+&lt;figure class=&#34;center-figure&#34;&gt;
+    
+        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-final.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Monotron-Kills mounted&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;In retrospective, these are some of the things that can be improved:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Desing a PCB to mount all pots and jacks. This PCB should make easy to mount the Monotron board and the adapter.&lt;/li&gt;
+&lt;li&gt;This module is 8HP (~ 40 mm) and it has too many knobs and jacks. Making the panel 12HP or 14HP would have been better.&lt;/li&gt;
+&lt;li&gt;The LFO output should not use decoupling capacitor since this capacitor destroys the signal for very low frequencies.&lt;/li&gt;
+&lt;li&gt;The VCF output should have higher gain.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Vult Generic Module</title>
@@ -736,52 +882,6 @@
 &lt;p&gt;As I mentioned before, you can achieve this results by using a side-chained  frequency compressor. But I think that those kind of plugins would consume a lot of processing power in a DAW (correct me if I’m wrong). I would like to fix the mix problem by using the tools that are already available in my DAW, that are basically compressors and equalizers. That’s the purpose of the Filter in the B channel. I play with the filter in order to reduce the offending frequencies in channel B and reduce the overlapping. So once I have a decent sound using only the filter, I copy the setting of the filter to my DAW.&lt;/p&gt;
 
 &lt;p&gt;Feel free to play with the program and let me know if you have any suggestions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>MeeBlip Editor</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</link>
-      <pubDate>Sat, 02 Dec 2006 15:57:43 -0600</pubDate>
-      
-      <guid>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</guid>
-      <description>&lt;p&gt;This is an editor for the Meeblip synthesizer. I use it with the Meeblip micro.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You can use this file with Max (&lt;a href=&#34;https://cycling74.com/products/max/&#34;&gt;Download Here&lt;/a&gt;). You can use the trial version and after the trial ends you can still run the patch but you cannot make modifications to it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Some time ago I got a Meeblip Micro &lt;a href=&#34;http://meeblip.com/&#34;&gt;http://meeblip.com/&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/meeblip-micro.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;MeeBlip Micro&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Since I got the Micro version, I does not have any controls. However it is possible to control it via MIDI. I made a simple editor using Max. This is how it looks like:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/meeblipeditor.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;MeeBlip Micro&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
     </item>
     
   </channel>

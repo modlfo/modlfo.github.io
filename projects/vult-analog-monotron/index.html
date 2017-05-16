@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<body>
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="A portfolio template that uses Material Design Lite.">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+   <title> modlfö - Leonardo Laguna Ruiz </title>
+   <link href="https://fonts.googleapis.com/css?family=Domine|Montserrat" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css" />
+   <link rel="stylesheet" href="/css/styles.css" />
+   <script src="https://use.fontawesome.com/d194f97aa6.js"></script>
+</head>
+
+<header class="mdl-layout__header header-style">
+   <div class="mdl-layout__header-row">
+      
+      <span class="mdl-layout-title">modlfö</span>
+      
+      <div class="mdl-layout-spacer"></div>
+      
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+         <a class="mdl-navigation__link is-active" href="/"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+         <a class="mdl-navigation__link" href="/blog"><i class="fa fa-envelope" aria-hidden="true"></i> BLOG</a>
+         <a class="mdl-navigation__link" href="/projects"><i class="fa fa-cogs" aria-hidden="true"></i> PROJECTS</a>
+         <a class="mdl-navigation__link" href="/music"><i class="fa fa-music" aria-hidden="true"></i> MUSIC</a>
+         <a class="mdl-navigation__link" href="/publications"><i class="fa fa-pencil" aria-hidden="true"></i> PUBLICATIONS</a>
+         <a class="mdl-navigation__link" href="https://github.com/modlfo/"><i class="fa fa-github" aria-hidden="true"></i> GITHUB</a>
+         <a class="mdl-navigation__link" href="/about"><i class="fa fa-address-book-o" aria-hidden="true"></i> ABOUT</a>
+      </nav>
+   </div>
+</header>
+<div class="mdl-layout__drawer">
+   <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+      <a class="mdl-navigation__link" href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+      <a class="mdl-navigation__link" href="/blog"><i class="fa fa-envelope" aria-hidden="true"></i> Blog</a>
+      <a class="mdl-navigation__link" href="/projects"><i class="fa fa-cogs" aria-hidden="true"></i> Projects</a>
+      <a class="mdl-navigation__link" href="/music"><i class="fa fa-music" aria-hidden="true"></i> Music</a>
+      <a class="mdl-navigation__link" href="/publications"><i class="fa fa-pencil" aria-hidden="true"></i> Publications</a>
+      <a class="mdl-navigation__link" href="https://github.com/modlfo/"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+      <a class="mdl-navigation__link" href="/about"><i class="fa fa-address-book-o" aria-hidden="true"></i> About</a>
+   </nav>
+</div>
+      <main class="mdl-layout__content">
+         <div class="content">
+            
+            <h3>Monotron Eurorack Mod</h3>
+             
+            <hr /> <p>More than six years after I bought my Korg Monotron, I decided to make a mod to put it in my Eurorack.</p>
+
+<p></p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-banner.png" />
+    
+    
+    <figcaption>
+        <h4>Monotron-Kills</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>This is something that has been already done before by other persons. A search shows the <a href="http://pulplogic.com/product/monotron-kit/">Pulp Logic kit</a> and also some threads in MuffWiggler. However, I intentionally avoided looking at this pages since I wanted to figure it out by myself. I called my mod Monotron-Kills.</p>
+
+<p>By looking at the schematics and making a few measurements I defined the necessary things to adapt it. Since the Monotron works in a low voltage my approach was to adapt the input and output voltages to support the plus minus twelve volts of the Eurorack.</p>
+
+<p>The first step was to remove one capacitor of the Monotron in order to break the connection of the VCO to the VCF. In the picture you can see the cap I removed.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-fix.png" />
+    
+    
+    <figcaption>
+        <h4>One capacitor removed to break VCO-&gt;VCF</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I also removed the &lsquo;standby/pitch/cuttoff&rsquo; switch in order to break the connections from the LFO to the VCF or VCO. I put in place a wire to keep the Monotron ON the whole time. I removed all the potentiometers in the board and also the volume control. Once all afore mentioned components were removed I soldered wires to get the following inputs/outputs:</p>
+
+<ul>
+<li>VCO output: the point is labeled on the PCB</li>
+<li>LFO output: labeled on the PCB</li>
+<li>VCF output: this one is taken from one of the pads of the volume control</li>
+<li>VCO Pitch: labeled on the PCB</li>
+<li>VCF Cutoff: labeled on the PCB</li>
+<li>Gate: labeled on the PCB</li>
+<li>VCF input: lower pad of the removed capacitor</li>
+</ul>
+
+<p>Using these terminals is possible to get one VCO, VCF and LFO from the Monotron. The following image show the circuit I designed to adapt it.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-kills-schematic.png" />
+    
+    
+    <figcaption>
+        <h4>Schematic of the Eurorack adapter</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Here you can get the <a href="/images/vult-analog-monotron-kills-schematic.pdf">PFD version of the schematic</a>. In the schematic the component U3 represents the Monotron board.</p>
+
+<p>Since the main circuit used 6 opamps and I had 8 available I decided to add PWM output from the VCO. I also added two jacks to add CV control to the PWM and the VCF.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-pbc.png" />
+    
+    
+    <figcaption>
+        <h4>Panel and adapter board</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Based on this schematic I designed a PCB which I intended to use just for testing purposes. But once I wired all and checked that everything worked I got lazy and didn&rsquo;t tear apart the prototype. So I designed a panel to mount my ugly prototype.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-b.png" />
+    
+    
+    <figcaption>
+        <h4>Prototype mounted to the panel (Monotron side)</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-a.png" />
+    
+    
+    <figcaption>
+        <h4>Prototype mounted to the panel (adapter side)</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Once the Monotron-Kills is mounted you cannot see the mess that lies behind.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/vult-analog-monotron-final.png" />
+    
+    
+    <figcaption>
+        <h4>Monotron-Kills mounted</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>In retrospective, these are some of the things that can be improved:</p>
+
+<ul>
+<li>Desing a PCB to mount all pots and jacks. This PCB should make easy to mount the Monotron board and the adapter.</li>
+<li>This module is 8HP (~ 40 mm) and it has too many knobs and jacks. Making the panel 12HP or 14HP would have been better.</li>
+<li>The LFO output should not use decoupling capacitor since this capacitor destroys the signal for very low frequencies.</li>
+<li>The VCF output should have higher gain.</li>
+</ul>
+         </div>
+         <footer class="mdl-mini-footer footer-style">
+   <div class="mdl-mini-footer__left-section footer-style-elem">
+      © 2016 Leonardo Laguna Ruiz , PhD.
+   </div>
+   <div class="mdl-mini-footer__right-section footer-style-elem">
+      hardware/software engineer with a passion for music
+   </div>
+</footer>
+      </main>
+   </div>
+   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
+
+</html>
