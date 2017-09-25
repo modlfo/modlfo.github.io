@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects-rsses on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/projects/index.xml</link>
-    <description>Recent content in Projects-rsses on My New Hugo Site</description>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 May 2017 19:30:49 +0200</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Monotron Eurorack Mod</title>
@@ -17,146 +19,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</guid>
       <description>&lt;p&gt;More than six years after I bought my Korg Monotron, I decided to make a mod to put it in my Eurorack.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-banner.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Monotron-Kills&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;This is something that has been already done before by other persons. A search shows the &lt;a href=&#34;http://pulplogic.com/product/monotron-kit/&#34;&gt;Pulp Logic kit&lt;/a&gt; and also some threads in MuffWiggler. However, I intentionally avoided looking at this pages since I wanted to figure it out by myself. I called my mod Monotron-Kills.&lt;/p&gt;
-
-&lt;p&gt;By looking at the schematics and making a few measurements I defined the necessary things to adapt it. Since the Monotron works in a low voltage my approach was to adapt the input and output voltages to support the plus minus twelve volts of the Eurorack.&lt;/p&gt;
-
-&lt;p&gt;The first step was to remove one capacitor of the Monotron in order to break the connection of the VCO to the VCF. In the picture you can see the cap I removed.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-fix.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;One capacitor removed to break VCO-&amp;gt;VCF&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;I also removed the &amp;lsquo;standby/pitch/cuttoff&amp;rsquo; switch in order to break the connections from the LFO to the VCF or VCO. I put in place a wire to keep the Monotron ON the whole time. I removed all the potentiometers in the board and also the volume control. Once all afore mentioned components were removed I soldered wires to get the following inputs/outputs:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;VCO output: the point is labeled on the PCB&lt;/li&gt;
-&lt;li&gt;LFO output: labeled on the PCB&lt;/li&gt;
-&lt;li&gt;VCF output: this one is taken from one of the pads of the volume control&lt;/li&gt;
-&lt;li&gt;VCO Pitch: labeled on the PCB&lt;/li&gt;
-&lt;li&gt;VCF Cutoff: labeled on the PCB&lt;/li&gt;
-&lt;li&gt;Gate: labeled on the PCB&lt;/li&gt;
-&lt;li&gt;VCF input: lower pad of the removed capacitor&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Using these terminals is possible to get one VCO, VCF and LFO from the Monotron. The following image show the circuit I designed to adapt it.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-kills-schematic.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Schematic of the Eurorack adapter&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Here you can get the &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-kills-schematic.pdf&#34;&gt;PFD version of the schematic&lt;/a&gt;. In the schematic the component U3 represents the Monotron board.&lt;/p&gt;
-
-&lt;p&gt;Since the main circuit used 6 opamps and I had 8 available I decided to add PWM output from the VCO. I also added two jacks to add CV control to the PWM and the VCF.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-pbc.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Panel and adapter board&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Based on this schematic I designed a PCB which I intended to use just for testing purposes. But once I wired all and checked that everything worked I got lazy and didn&amp;rsquo;t tear apart the prototype. So I designed a panel to mount my ugly prototype.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-b.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Prototype mounted to the panel (Monotron side)&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-a.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Prototype mounted to the panel (adapter side)&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Once the Monotron-Kills is mounted you cannot see the mess that lies behind.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-monotron-final.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Monotron-Kills mounted&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Here you can hear a demo of the module.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/3EoyLmH_5hY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In retrospective, these are some of the things that can be improved:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desing a PCB to mount all pots and jacks. This PCB should make easy to mount the Monotron board and the adapter.&lt;/li&gt;
-&lt;li&gt;This module is 8HP (~ 40 mm) and it has too many knobs and jacks. Making the panel 12HP or 14HP would have been better.&lt;/li&gt;
-&lt;li&gt;The LFO output should not use decoupling capacitor since this capacitor destroys the signal for very low frequencies.&lt;/li&gt;
-&lt;li&gt;The VCF output should have higher gain.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -167,45 +30,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</guid>
       <description>&lt;p&gt;This is a test module that I use to try different synthesis algorithms coded in Vult. The module uses a Teensy 3.2 and provides Eurorack voltages.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-1.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;To build this module I got a prototyping board from &lt;a href=&#34;http://synovatron.blogspot.se/p/products.html&#34;&gt;Synovatron&lt;/a&gt; that provided jacks, knobs, panel and PCBs where you can solder whatever you want.&lt;/p&gt;
-
-&lt;p&gt;The module uses the analog output of the Teensy and pass it through an amplification stage with two opamps in order to provide voltages in the range -10 to +10 V. Four potentiometers are connected to the analog inputs. The panel provides one gate input (plus a push button) and a few other switches. Unfortunately this module does not support any CV input.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-module-2.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Vult Generic Module&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The following video shows it in action while running a model of a 909 kick drum.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8ULGrG8E2pg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Unfortunately this module does not support any CV input.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -216,182 +41,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</guid>
       <description>&lt;p&gt;This is my version of a Steiner-Parker VCF for Eurorack format. This implementation is based on the design by Yves Usson (Yusynth).&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t know the story. I&amp;rsquo;m trying to build my own Eurorack synthesizer&amp;hellip; and by build I mean creating all the modules. Most of the modules (and synthesizers) that I have built are hand-soldered in perfboards. For this module, I wanted something more &amp;ldquo;professional&amp;rdquo; looking. That&amp;rsquo;s why I decided to design and manufacture the PCBs. In this case I used CircuitMaker.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-2.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Vult-Analog Steiner-Parker VCF&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/c74hJdPacnU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;You can find the original design here &lt;a href=&#34;http://yusynth.net/Modular/index_en.html&#34;&gt;Yusynth&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The module consist of three boards: a panel, a control board and the analog board. If you want to make your own, you can find my original design files here.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker.zip&#34;&gt;Analog Board&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker-control.zip&#34;&gt;Control Board&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/other/Steiner-Parker-panel.zip&#34;&gt;Panel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-vcf-boards.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;The three boards&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;But before making your own you have to be aware that this initial design is not perfect. So keep reading.&lt;/p&gt;
-
-&lt;h3 id=&#34;building-your-own&#34;&gt;Building your own&lt;/h3&gt;
-
-&lt;p&gt;This are the schematics of the filter:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-diagram.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Steiner-Parker main board&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-control.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Steiner-Parker control board&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;These are the schematics in PDF format &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-diagram.pdf&#34;&gt;main&lt;/a&gt;, &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-control.pdf&#34;&gt;control&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Regarding the components, I got practically all of them from &lt;a href=&#34;https://www.musikding.de&#34;&gt;Musikding&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This filter uses a pair of matched transistors. Yves recommends BC547C or a 2SC1583. In my case I used a THAT300P14 which contains 4 transistors (two of them are unused). If you have a pair of matched transistors you can use them instead. As you can see in the picture below, the trimpots are precision trimpots.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-back.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Main board&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;One mistake that I made in the first (and only) batch of the board was an incorrect trace. The good thing is that it&amp;rsquo;s very easy to fix. I incorrectly connected the feedback of the resonance control to the wrong pin of the opamp. You can see the fix in the picture below.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-fix.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Fix for the first batch of boards&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;My second mistake was when buying the jacks. I designed the PCB for these jacks (Lumberg 1502 03), since I had a few of them:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/jack1.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Matching jacks&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;But the ones I bought were:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/jack2.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Alternative jacks (requires some fixing)&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Since the pins do not match I had to adapt them by cutting the original pins and soldering new pins that matched the originals.&lt;/p&gt;
-
-&lt;p&gt;One part that I didn&amp;rsquo;t have when designing the board was the filter mode selector. In the original design Yves uses 3P4T rotary switch. I was not sure that I could easily find it, therefore I made a big hole in the PCB and exposed the pins (one source and three destinations: LP, BP, HP). That way I could adapt any switch I could get. At the end I used a Mini rotary switch 2P3T from &lt;a href=&#34;https://www.musikding.de/index.php?a=2761&amp;amp;bewertung_anzeigen=1&#34;&gt;Musikding&lt;/a&gt;. Using this switch you can not have the all-pass mode of the filter.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-switch.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Connecting a 2P3T switch&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-steiner-parker-front.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Control board&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -402,41 +52,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</guid>
       <description>&lt;p&gt;This is a very simple module that I made to protect other signal generators just in case I make a mistake. A simple active buffer with a few operational amplifiers.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Active signal buffer for Eurorack&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;This is the most basic circuit that you can make with operational amplifiers, but repeated several times.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Schematic of the signal buffer&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;A PDF version of the schematic can be downloaded here &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/images/vult-analog-active-buffer-schematic.pdf&#34;&gt;Schematic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Even when the circuit is simple, it took me about 3 hours to wire it and make the panel.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -447,9 +63,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult/</guid>
       <description>&lt;p&gt;Vult is a simple programming language made to generate high-performance DSP code that can run on small processors like Arduinos.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Vult provides features that simplify developing DSP algorithms, for example audio effects and synthesizers.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -460,9 +74,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/pla/</guid>
       <description>&lt;p&gt;Pla is an OCaml library and ppx syntax extension to create composable templates based on verbatim strings.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Pla creates (at compile-time) fast and easy templates that can be filled out to generate complex text.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -484,50 +96,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/3dmodels/</guid>
       <description>&lt;p&gt;These are a few models that I have designed for different applications.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;These models are in the Hackafe repository.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/3dmodels.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Clamp for the projector&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/filament-cleaner.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Filament cleaner&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/webcam-cover.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Webcam Cover&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -538,45 +107,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/microbruto/</guid>
       <description>&lt;p&gt;The MicroBruto is a digital synthesizer with controllers inspired by the MicroBrute.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I tried to imitate the functions of the oscillator, the envelope, filter, LFO and most important: the modulation matrix.&lt;/p&gt;
-
-&lt;p&gt;I have been watching demos and reviews of the Arturia MicroBrute and it seems like a very interesting synthesizer. It’s analog, cheap and flexible. But before even thinking about getting one, I wanted to “experience” the user interface. That’s why I decided to make the MicroBruto. ‘Bruto’ in Spanish can be translated as gross or stupid, but I have to clarify that the name does not reflects my option about the synthesizer. I just thought it was funny.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/microbrute.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Arturia MicroBrute&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The MicroBruto is not an emulation, is just a digital synthesizer with controllers inspired by the MicroBrute. I tried to imitate the functions of the oscillator, the envelope, filter, LFO and most important: the modulation matrix.&lt;/p&gt;
-
-&lt;p&gt;Here you can see a screenshot:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/microbruto.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;MicroBruto&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The beauty of this synthesizer is that is does not need a manual. That’s why it is a Simplesizer.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -587,54 +118,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/mocotron/</guid>
       <description>&lt;p&gt;Mocotron is an imitation of the Monotron synthesizer made in Reaktor.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monotron.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Monotron&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;I really like this small synthesizer because it sounds very natural. I love the analog sound.&lt;/p&gt;
-
-&lt;p&gt;This is my version:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/mocotron.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Mocotron&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The whole model was made using Reaktor Core what makes it very cpu-efficient.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/mocotron_internals.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Mocotron internal structure&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -645,59 +129,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/monoblep-meblitron/</guid>
       <description>&lt;p&gt;This is a hybrid synthesizer that I hacked during the MIDIHACK 2014 in Stockholm.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;This synthesizer combines a Monotron and a Meeblip. Both synthesizers are controlled by a Raspberry Pi which receives OSC messages.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-story&#34;&gt;The story&lt;/h3&gt;
-
-&lt;p&gt;Last May 17-18 I attended to the MIDI HACK, which is by far the coolest Hackathon out there (IMO). Is not that I have been in others, but this one matched perfectly the kind of hacks that I like to make.&lt;/p&gt;
-
-&lt;p&gt;I had a great time surrounded by people with the same obsessions as me: music, electronics and computers. The event was great, it had nice food, a lot of drinks, coffee and the most important thing: the aura.&lt;/p&gt;
-
-&lt;p&gt;At the beginning I had no idea what I was going to build. So I spend the first three hours moving ideas in my brain and trying to come up with something feasible and not repeated. After looking at my bag I decided to do something that I wanted to do two years back…&lt;/p&gt;
-
-&lt;p&gt;I had in my bag a Monotron, a Meeblip and some Arduinos. So I decided to put them together and add some extra sauce by connecting a Raspberry Pi to handle OSC messages.&lt;/p&gt;
-
-&lt;p&gt;After some hours I decided to drop the Raspberry Pi because I couldn’t connect it to the Spotify’s  WIFI but it works fine otherwise.&lt;/p&gt;
-
-&lt;p&gt;This is a picture of the project:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monobleep-meeblitron.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Monoblep-Meblitron&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;And this is a more detailed diagram of the connections.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/monobleep-meeblitron-diagram.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Diagram&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;So, The RPi runs Node.js and connects to the Arduinos by using the Arduino Firmata. One of the Arduinos sends CV signals to the Monotron in order to control the gate, pitch and cutoff. The second Arduino connects to a custom-made board containing knobs, buttons and LEDs.&lt;/p&gt;
-
-&lt;p&gt;The Meeblip is connected by using a standard USB to MIDI converter. The audio of the Meeblip is fed into the Monotron and it uses a potentiometer to control the amount of audio.&lt;/p&gt;
-
-&lt;p&gt;The custom controller is used to adjust a few of the parameters of the Meeblip.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -708,20 +140,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/firmata-test-js/</guid>
       <description>&lt;p&gt;This is a small program that I made to learn/test Atom-shell (now Electron) and Angular.js. This program allows you to communicate and configure Firmata boards like Arduino.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/firmata-test-js.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Firmata-Test.js screenshot&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -732,9 +151,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/ocaml-firmata/</guid>
       <description>&lt;p&gt;This is a Ocaml library that allows you to access Firmata boards.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The library supports all basic features of the Firmata protocol. I mainly run it on the Rapspberry Pi to communicate with Arduino boards.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -745,20 +162,7 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/teensy-braids/</guid>
       <description>&lt;p&gt;I took the source code of the Mutable-Intruments Braids and adapted it to a Teensy board with a nice OLED display. Then I 3D-printed a case and made it a cool synthesizer.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/teensy-braids.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Braids in a custom case&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -769,123 +173,73 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/hmh-mixer/</guid>
       <description>&lt;p&gt;This is an educational project I made to get a better understanding on mixing sound.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You can use this file with Max (&lt;a href=&#34;https://cycling74.com/products/max/&#34;&gt;Download Here&lt;/a&gt;). You can use the trial version and after the trial ends you can still run the patch but you cannot make modifications to it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Mixing is all about hearing but it’s always ok to  get a little help from the eyes; that’s the place of spectrum analyzers.  When mixing two sounds we have to be careful on how they interact with  each other in frequency domain. A bad mix may have moments in which certain frequencies get to loud or where one sound shadows the presence of other.&lt;/p&gt;
-
-&lt;p&gt;Being capable of detecting (and fixing) those problems of a mix requires training and talent. Since I don’t have to much training yet (lets not talk about the talent) I made this program to help me hear. The HMH (Help-Me-Hear) Mixer provides features that can help you in times of doubt.&lt;/p&gt;
-
-&lt;p&gt;This is a screenshot of the interface:&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix.png&#34; /&gt;
+    <item>
+      <title>MeeBlip Editor</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</link>
+      <pubDate>Sat, 02 Dec 2006 15:57:43 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</guid>
+      <description>&lt;p&gt;This is an editor for the Meeblip synthesizer. I use it with the Meeblip micro.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
+    <item>
+      <title>Water Bobot</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</link>
+      <pubDate>Fri, 02 Dec 2005 15:57:54 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</guid>
+      <description>&lt;p&gt;I assembled this project using the Rover 5. It uses an Arduino for the low-level control (current balancing, speed control) and a Raspberry Pi to receive OSC messages.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
-    &lt;figcaption&gt;
-        &lt;h4&gt;HMH Mixer&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
+    <item>
+      <title>Extendra</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/extendra/</link>
+      <pubDate>Thu, 02 Dec 2004 15:58:03 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/extendra/</guid>
+      <description>&lt;p&gt;I made this board to add more I/O to other projects. It uses a PIC16F1516 and is controlled by I2C.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
-&lt;/figure&gt;
+    <item>
+      <title>HackPrism</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/hackprism/</link>
+      <pubDate>Tue, 02 Dec 2003 15:58:11 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/hackprism/</guid>
+      <description>&lt;p&gt;This is program inspired by the app SoundPrism. It does no have all the features of SoundPrism but it allows you hack the code and personalize it.&lt;/p&gt;
 
-
-&lt;p&gt;The HMH Mixer was inspired by the youtube tutorial of dude837: &lt;a href=&#34;http://www.youtube.com/watch?v=69A1kGNFYIc&#34;&gt;Pfft~ is your friend&lt;/a&gt; where he explains the use of the pfft~ object in Max.&lt;/p&gt;
-
-&lt;p&gt;The program has can load two audio files (A and B). Use the “Open” button to load your files, and select “Loop” if you want your files to repeat when they end. With the level you can control the volume.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix_channels.png&#34; /&gt;
+    <item>
+      <title>Noname Synth</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/noname-synth/</link>
+      <pubDate>Mon, 02 Dec 2002 15:58:20 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/noname-synth/</guid>
+      <description>&lt;p&gt;This is a small synthesizer I made by reusing parts from other projects. Internally it has an XMOS processor and uses phase distortion synthesis.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Channels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
+    <item>
+      <title>QuineHp</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/quine-hp/</link>
+      <pubDate>Sun, 02 Dec 2001 15:58:31 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/quine-hp/</guid>
+      <description>&lt;p&gt;This was the first programs that I made in the HP49G+ calculator using the C compiler (I have done many for the HP49G). It is a logic function minimizer using the Quine-MacCluskey method.&lt;/p&gt;
 
-
-&lt;p&gt;When playing the files you can see a spectrogram of both files where the “x” axis is the frequency and “y” is the time.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-spectrum.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Scpectrum view&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Below the spectograms we have a filter that is applied to channel B only. Later I will explain the purpose of this filter.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-filter.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Filter&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;At the bottom we have the master section where we can start reproducing the sounds and see the spectrogram of the mixed signals.&lt;/p&gt;
-
-
-&lt;figure class=&#34;center-figure&#34;&gt;
-    
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/hmhmix-fmaster.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Master Mixer&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The master signal has 4 different play modes:&lt;/p&gt;
-
-&lt;h3 id=&#34;a-b-mix&#34;&gt;A+B Mix&lt;/h3&gt;
-
-&lt;p&gt;This mode mixes the A and B sounds. What you hear is simply the sum of the sounds.&lt;/p&gt;
-
-&lt;h3 id=&#34;overlap&#34;&gt;Overlap&lt;/h3&gt;
-
-&lt;p&gt;In this mode the magic starts happening. This mode is controlled by the “Threshold” slider. Set it as low as possible and increase it gradually. As you increase it you will hear only the frequencies that the two sounds have in common. The first frequencies that are heard are the ones that once overlapped are above the threshold. These frequencies are the ones that overlap and have a high volume. If you play a kick drum and a bass, you will hear how they interfere specially in the low end. This is what we have to prevent when mixing.&lt;/p&gt;
-
-&lt;p&gt;Using the spectrogram we can determine if there are specific moments in which the overlap is higher.&lt;/p&gt;
-
-&lt;h3 id=&#34;b-auto&#34;&gt;B Auto&lt;/h3&gt;
-
-&lt;p&gt;This mode uses the amplitude of the frequencies that overlap and applies a reduction (filtering) of the signal B. This acts as a frequency compressor. The reduction is controlled by the “Reduction” slider, the higher it is the more that the overlapped frequencies are taken from the B signal.&lt;/p&gt;
-
-&lt;p&gt;This is interesting because you can hear how the signal B need to filtered in order to reduce the overlapped frequencies.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-b-auto&#34;&gt;A+B Auto&lt;/h3&gt;
-
-&lt;p&gt;In this mode you can hear the signal of “B Auto” mixed with the channel A. This would be a kind of “very good blend” of the two sounds. The xix is not perfect, but listening to this will give you an idea of how it should sound if the common frequencies do not affect too much.&lt;/p&gt;
-
-&lt;p&gt;As I mentioned before, you can achieve this results by using a side-chained  frequency compressor. But I think that those kind of plugins would consume a lot of processing power in a DAW (correct me if I’m wrong). I would like to fix the mix problem by using the tools that are already available in my DAW, that are basically compressors and equalizers. That’s the purpose of the Filter in the B channel. I play with the filter in order to reduce the offending frequencies in channel B and reduce the overlapping. So once I have a decent sound using only the filter, I copy the setting of the filter to my DAW.&lt;/p&gt;
-
-&lt;p&gt;Feel free to play with the program and let me know if you have any suggestions.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
