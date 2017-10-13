@@ -49,45 +49,109 @@
       <main class="mdl-layout__content">
          <div class="content">
             
-            <h3>Signal Buffer</h3>
+            <h3>My CNC/3D printer</h3>
              
-            <hr /> <p>This is a very simple module that I made to protect other signal generators just in case I make a mistake. A simple active buffer with a few operational amplifiers.</p>
+            <hr /> <p>Some time ago I was helping my fiance&rsquo;s family cleaning the basement and in there we found a box with many electric and mechanic components that belonged to her dad.</p>
 
 <p></p>
 
+<p>Within the stuff there were some step motors of different kinds. Three of them were Nema 23 motors, I tested them and they were working correctly. I thought it would be nice doing something with them; the obvious thing was to make a CNC milling or 3D printer.</p>
+
 
 <figure class="center-figure">
     
-        <img src="/images/vult-analog-active-buffer.png" />
+        <img src="/images/StepMotor.png" />
     
     
     <figcaption>
-        <h4>Active signal buffer for Eurorack</h4>
+        <h4>Step Motors</h4>
         
     </figcaption>
     
 </figure>
 
 
-<p>This is the most basic circuit that you can make with operational amplifiers, but repeated several times.</p>
+<p>I have assembled a few 3D printers before, one Huxley, one Mendel, and Printrbot Maker. The only printer I have now is the Printrbot Metal, which I upgraded from the &ldquo;Maker&rdquo; version. All these printers have their strong and weak sides. But they are not good to attach a drill and make a milling machine.</p>
+
+<p>For this new CNC I wanted to have something robust and cheap. To get it cheap, try to use as many parts as I could find in my local hardware store and buy the remaining parts from china.</p>
+
+<p>For the electronics, I got from china a package that contained an Arduino Mega + Ramps 1.4 + drivers (all of them clones). This is the typical kit for assembling a regular 3D printer.</p>
 
 
 <figure class="center-figure">
     
-        <img src="/images/vult-analog-active-buffer-schematic.jpg" />
+        <img src="/images/cnc-board.png" />
     
     
     <figcaption>
-        <h4>Schematic of the signal buffer</h4>
+        <h4>Step Motors</h4>
         
     </figcaption>
     
 </figure>
 
 
-<p>A PDF version of the schematic can be downloaded here <a href="/images/vult-analog-active-buffer-schematic.pdf">Schematic</a>.</p>
+<p>After assembling I needed to check that the Marlin firmware worked correctly. I made a few modifications to the configuration and I got it working. Here&rsquo;s my repository of the code: <a href="https://github.com/modlfo/Marlin">Marlin Firmware</a>.</p>
 
-<p>Even when the circuit is simple, it took me about 3 hours to wire it and make the panel.</p>
+<p>After a few visits to the hardware store and checking which product they had I got a good mental model on how the CNC could look.</p>
+
+<p>Once I collected all the parts I started designing the model in <a href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a>. I have done a few 3D models in Fusion 360 but nothing containing as many parts as this.</p>
+
+<p>The idea is simple, make three similar axis and assemble them in any configuration.</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/Axis.png" />
+    
+    
+    <figcaption>
+        <h4>Model of the axis</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure class="center-figure">
+    
+        <img src="/images/Axis-real.png" />
+    
+    
+    <figcaption>
+        <h4>Final axis</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The rails are from a manufacturer called <a href="https://www.alfer.com">Alfer</a> which I found in the hardware store. The layout of these rails is very convenient and I designed all the 3D printed parts following a template that is compatible with them. If all the parts are compatible, it is very easy to assemble them in multiple configurations.</p>
+
+<p>This is the first prototype I designed:</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/Prototype1.png" />
+    
+    
+    <figcaption>
+        <h4>CNC first prototype</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Here you can see a video of the initial test I made:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GCBdWTskWY0" frameborder="0" allowfullscreen></iframe>
+
+<p>At this point there are a few parts missing. For example the attachment to mount the drill or the 3D printer head. Right now I don&rsquo;t have access to a 3D printer to print the last parts. But I used a few cable ties to attach the extruder to the axis and I got myself a 3D printer.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tXigDSZATG0" frameborder="0" allowfullscreen></iframe>
          </div>
          <footer class="mdl-mini-footer footer-style">
    <div class="mdl-mini-footer__left-section footer-style-elem">

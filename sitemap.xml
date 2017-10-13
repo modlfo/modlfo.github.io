@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <lastmod>2017-07-03T08:48:29+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/projects/cnc/</loc>
+    <lastmod>2017-07-03T08:48:29+03:00</lastmod>
+  </url>
   
   <url>
     <loc>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</loc>
@@ -205,46 +214,6 @@
   <url>
     <loc>http://replace-this-with-your-hugo-site.com/projects/quine-hp/</loc>
     <lastmod>2001-12-02T15:58:31-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/blog/</loc>
-    <lastmod>2016-12-22T17:55:50-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/music/</loc>
-    <lastmod>2016-10-03T12:49:38-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
-    <lastmod>2017-05-16T19:30:49+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/</loc>
-    <lastmod>2017-05-16T19:30:49+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/publications/</loc>
-    <lastmod>2016-12-04T08:48:29-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://replace-this-with-your-hugo-site.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
