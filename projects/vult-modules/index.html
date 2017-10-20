@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<body>
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="Personal page of Leonardo Laguna Ruiz">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+   <title> modlfö - Leonardo Laguna Ruiz </title>
+   <link href="https://fonts.googleapis.com/css?family=Domine|Montserrat" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css" />
+   <link rel="stylesheet" href="/css/styles.css" />
+   <script src="https://use.fontawesome.com/d194f97aa6.js"></script>
+   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</head>
+
+<header class="mdl-layout__header header-style">
+   <div class="mdl-layout__header-row">
+      
+      <span class="mdl-layout-title">modlfö</span>
+      
+      <div class="mdl-layout-spacer"></div>
+      
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+         <a class="mdl-navigation__link is-active" href="/"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+         <a class="mdl-navigation__link" href="/blog"><i class="fa fa-envelope" aria-hidden="true"></i> BLOG</a>
+         <a class="mdl-navigation__link" href="/projects"><i class="fa fa-cogs" aria-hidden="true"></i> PROJECTS</a>
+         <a class="mdl-navigation__link" href="/music"><i class="fa fa-music" aria-hidden="true"></i> MUSIC</a>
+         <a class="mdl-navigation__link" href="/publications"><i class="fa fa-pencil" aria-hidden="true"></i> PUBLICATIONS</a>
+         <a class="mdl-navigation__link" href="https://github.com/modlfo/"><i class="fa fa-github" aria-hidden="true"></i> GITHUB</a>
+         <a class="mdl-navigation__link" href="/about"><i class="fa fa-address-book-o" aria-hidden="true"></i> ABOUT</a>
+      </nav>
+   </div>
+</header>
+<div class="mdl-layout__drawer">
+   <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+      <a class="mdl-navigation__link" href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+      <a class="mdl-navigation__link" href="/blog"><i class="fa fa-envelope" aria-hidden="true"></i> Blog</a>
+      <a class="mdl-navigation__link" href="/projects"><i class="fa fa-cogs" aria-hidden="true"></i> Projects</a>
+      <a class="mdl-navigation__link" href="/music"><i class="fa fa-music" aria-hidden="true"></i> Music</a>
+      <a class="mdl-navigation__link" href="/publications"><i class="fa fa-pencil" aria-hidden="true"></i> Publications</a>
+      <a class="mdl-navigation__link" href="https://github.com/modlfo/"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+      <a class="mdl-navigation__link" href="/about"><i class="fa fa-address-book-o" aria-hidden="true"></i> About</a>
+   </nav>
+</div>
+      <main class="mdl-layout__content">
+         <div class="content">
+            
+            <h3>Modules for VCVRack</h3>
+             
+            <hr />
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="location.href='http:\/\/github.com\/modlfo\/VultModules';">
+               Download
+            </button> 
+            <hr /> <p>This is a collection of all the modules that I have created for the virtual modular synthesizer VCVRack.</p>
+
+<p></p>
+
+<p>I&rsquo;m glad to publish these modules for free so anyone can use them. Behind every module there are many hours of work (and many litters of coffee). If you enjoy these modules you can support the development by making a donation. That will make me very happy.</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="RRMY2QPYEZT2S">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<h1 id="tangents">Tangents</h1>
+
+<p><img src="/images/Tangents.png" alt="Tangents" /></p>
+
+<p>This is another module with a long history. Some years ago I got obsessed with the Steiner-Parker filter. I found the original article of Nyle Steiner and I started making models and simulations of it. My obsession calmed a bit when I designed my own <a href="/projects/vult-analog-steiner-parker/">Eurorack module</a>, but one night I found one of the simulation models I made. Immediately I started getting the equations an trying to put them in a simplified form. After making seven models and like 500 simulations, I got a nice set of equation that was simple enough and sounded very cool.</p>
+
+<p>One big addition I made in this version compared with the hardware version is that this module leaves exposed three inputs (LP, BP and HP). This makes possible to connect three sources and affecting the frequency content for each input differently.</p>
+
+<h1 id="trummor">Trummor</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Trummor-render.png?raw=true" alt="Trummor" /></p>
+
+<p>Trummor is a module that has been in development <a href="/projects/vult-analog-module/">(in a different form)</a> for a long time. I wanted something compact and effective to make drum sounds. But I wanted it to have some &ldquo;feeling&rdquo;. For that reason I started analyzing the schematics of drum machines and reading articles describing the behavior. I made many models an simulations and once I got something that sounded as a &ldquo;good kick drum&rdquo; I started relaxing the parameter restrictions and experimenting with the module. Trummor is one of my favorite modules, and most of the times I don&rsquo;t even use it as a drum.</p>
+
+<h1 id="rescomb">Rescomb</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Rescomb-render.png?raw=true" alt="Rescomb" /></p>
+
+<p>This is the first module that I designed. I really like Comb filters, so I coded in Vult a very simple version. When I started tweaking the parameters more extremely I found that with an specific feedback it was possible to make it resonate in a nice way and use this filter as an instrument. Rescomb is a weird effect, which in fact I use it more as an instrument than as a filter.</p>
+
+<h1 id="lateralus">Lateralus</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Lateralus-render.png?raw=true" alt="Lateralus" /></p>
+
+<p>Lateralus is a diode/ladder filter&hellip; or al least it has the basic structure of one. I started prototyping this filter in my simulator (Wolfram SystemModeler). At the beginning I was just playing with differential equations, and after many tweaks I managed to make it nice sounding an efficient.</p>
+
+<h1 id="stabile">Stabile</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Stabile-render.png?raw=true" alt="Stabile" /></p>
+
+<p>The story of this filter goes even before the existence of Vult. I implemented the initial version of this filter in a microcontroller. With the years I have made many tweaks an simplifications. In fact this filter is very efficient and the sound is very effective.</p>
+
+<h1 id="debriatus">Debriatus</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Debriatus-render.png?raw=true" alt="Debriatus" /></p>
+
+<p>This is a collection of distortion algorithms that I have developed over the years. I put one after the other so the input can be transformed into something completely different and that will ring your ears.</p>
+
+<h1 id="tohe">Tohe</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Tohe-render.png?raw=true" alt="Tohe" /></p>
+
+<p>Sometime you just want to slightly change the character of a signal. This module makes just that. If you want a more bass turn it to the left, for more treble to the right. Simple and efficient.</p>
+
+<h1 id="splie">Splie</h1>
+
+<p><img src="https://github.com/modlfo/VultModules/blob/master/images/Splie-render.png?raw=true" alt="Splie" /></p>
+
+<p>Splie is an utility module that I made because it was handy when developing my modules.</p>
+         </div>
+         <footer class="mdl-mini-footer footer-style">
+   <div class="mdl-mini-footer__left-section footer-style-elem">
+      © 2016 Leonardo Laguna Ruiz , PhD.
+   </div>
+   <div class="mdl-mini-footer__right-section footer-style-elem">
+      hardware/software engineer with a passion for music
+   </div>
+</footer>
+      </main>
+   </div>
+</body>
+
+</html>
