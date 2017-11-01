@@ -17,67 +17,8 @@
       <guid>http://replace-this-with-your-hugo-site.com/projects/vult-modules/</guid>
       <description>&lt;p&gt;This is a collection of all the modules that I have created for the virtual modular synthesizer VCVRack.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m glad to publish these modules for free so anyone can use them. Behind every module there are many hours of work (and many litters of coffee). If you enjoy these modules you can support the development by making a donation. As a suggestion, you can send me the amount to buy 1 kg of roasted coffee beans in your country. That will make me very happy.&lt;/p&gt;
-
-&lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; target=&#34;_top&#34;&gt;
-&lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_s-xclick&#34;&gt;
-&lt;input type=&#34;hidden&#34; name=&#34;hosted_button_id&#34; value=&#34;RRMY2QPYEZT2S&#34;&gt;
-&lt;input type=&#34;image&#34; src=&#34;https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif&#34; border=&#34;0&#34; name=&#34;submit&#34; alt=&#34;PayPal - The safer, easier way to pay online!&#34;&gt;
-&lt;img alt=&#34;&#34; border=&#34;0&#34; src=&#34;https://www.paypalobjects.com/en_US/i/scr/pixel.gif&#34; width=&#34;1&#34; height=&#34;1&#34;&gt;
-&lt;/form&gt;
-
-&lt;h1 id=&#34;filters&#34;&gt;Filters&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Tangents-render.png?raw=true&#34; alt=&#34;Tangents&#34; /&gt;
-&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Rescomb-render.png?raw=true&#34; alt=&#34;Rescomb&#34; /&gt;
-&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Lateralus-render.png?raw=true&#34; alt=&#34;Lateralus&#34; /&gt;
-&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Stabile-render.png?raw=true&#34; alt=&#34;Stabile&#34; /&gt;
-&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Tohe-render.png?raw=true&#34; alt=&#34;Tohe&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;tangents&#34;&gt;Tangents&lt;/h3&gt;
-
-&lt;p&gt;This is another module with a long history. Some years ago I got obsessed with the Steiner-Parker filter. I found the original article of Nyle Steiner and I started making models and simulations of it. My obsession calmed a bit when I designed my own &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/&#34;&gt;Eurorack module&lt;/a&gt;, but one night I found one of the simulation models I made. Immediately I started getting the equations an trying to put them in a simplified form. After making seven models and like 500 simulations, I got a nice set of equation that was simple enough and sounded very cool.&lt;/p&gt;
-
-&lt;p&gt;One big addition I made in this version compared with the hardware version is that this module leaves exposed three inputs (LP, BP and HP). This makes possible to connect three sources and affecting the frequency content for each input differently.&lt;/p&gt;
-
-&lt;h3 id=&#34;rescomb&#34;&gt;Rescomb&lt;/h3&gt;
-
-&lt;p&gt;This is the first module that I designed. I really like Comb filters, so I coded in Vult a very simple version. When I started tweaking the parameters more extremely I found that with an specific feedback it was possible to make it resonate in a nice way and use this filter as an instrument. Rescomb is a weird effect, which in fact I use it more as an instrument than as a filter.&lt;/p&gt;
-
-&lt;h3 id=&#34;lateralus&#34;&gt;Lateralus&lt;/h3&gt;
-
-&lt;p&gt;Lateralus is a diode/ladder filter&amp;hellip; or al least it has the basic structure of one. I started prototyping this filter in my simulator (Wolfram SystemModeler). At the beginning I was just playing with differential equations, and after many tweaks I managed to make it nice sounding an efficient.&lt;/p&gt;
-
-&lt;h3 id=&#34;stabile&#34;&gt;Stabile&lt;/h3&gt;
-
-&lt;p&gt;The story of this filter goes even before the existence of Vult. I implemented the initial version of this filter in a microcontroller. With the years I have made many tweaks an simplifications. In fact this filter is very efficient and the sound is very effective. One addition to this module is the SEM output which provides a SEM-filter-like control.&lt;/p&gt;
-
-&lt;h3 id=&#34;tohe&#34;&gt;Tohe&lt;/h3&gt;
-
-&lt;p&gt;Sometime you just want to slightly change the character of a signal. This module makes just that. If you want a more bass turn it to the left, for more treble to the right. Simple and efficient.&lt;/p&gt;
-
-&lt;h1 id=&#34;units&#34;&gt;Units&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Trummor-render.png?raw=true&#34; alt=&#34;Trummor&#34; /&gt;
-&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Debriatus-render.png?raw=true&#34; alt=&#34;Debriatus&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;trummor&#34;&gt;Trummor&lt;/h3&gt;
-
-&lt;p&gt;Trummor is a module that has been in development &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/&#34;&gt;(in a different form)&lt;/a&gt; for a long time. I wanted something compact and effective to make drum sounds. But I wanted it to have some &amp;ldquo;feeling&amp;rdquo;. For that reason I started analyzing the schematics of drum machines and reading articles describing the behavior. I made many models an simulations and once I got something that sounded as a &amp;ldquo;good kick drum&amp;rdquo; I started relaxing the parameter restrictions and experimenting with the module. Trummor is one of my favorite modules, and most of the times I don&amp;rsquo;t even use it as a drum.&lt;/p&gt;
-
-&lt;h3 id=&#34;debriatus&#34;&gt;Debriatus&lt;/h3&gt;
-
-&lt;p&gt;This is a collection of distortion algorithms that I have developed over the years. I put one after the other so the input can be transformed into something completely different and that will ring your ears.&lt;/p&gt;
-
-&lt;h1 id=&#34;utilities&#34;&gt;Utilities&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/modlfo/VultModules/blob/master/images/Splie-render.png?raw=true&#34; alt=&#34;Splie&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;splie&#34;&gt;Splie&lt;/h4&gt;
-
-&lt;p&gt;Splie is an utility module that I made because it was handy when developing my modules. Even when VCV provides stackable cables, Splie buffer makes easier to change one input that is connected to multiple outputs.&lt;/p&gt;</description>
+&lt;p&gt;
+The modules have now their own page &lt;a href=&#34;https://modlfo.github.io/VultModules/&#34;&gt;Vult Modules for VCV Rack&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
