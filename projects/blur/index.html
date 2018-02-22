@@ -48,46 +48,50 @@
 </div>
       <main class="mdl-layout__content">
          <div class="content">
-            <h3> Latest releases </h3>
-            <div class="mdl-grid grid-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp">
-   <div class="mdl-card__title card-title">
-      Opioid
-   </div>
-   <div class="mdl-card__media">
-      <iframe width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/282442487&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-   </div>
-</div>  <div class="mdl-cell mdl-card mdl-shadow--4dp">
-   <div class="mdl-card__title card-title">
-      Kissing Juliette
-   </div>
-   <div class="mdl-card__media">
-      <iframe width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157179767&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-   </div>
-</div>  <div class="mdl-cell mdl-card mdl-shadow--4dp">
-   <div class="mdl-card__title card-title">
-      Greyed out
-   </div>
-   <div class="mdl-card__media">
-      <iframe width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177565401&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-   </div>
-</div>   
-            </div>
-            <h3> Playlist </h3>
-            <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/6446576&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-            <h3> Studio </h3>
+            
+            <h3>Blur Distortion</h3>
+             
+            <hr /> <p>Blur is a distortion that I adapted from the Fuzz guitar pedal. Blur was one of the circuits I modeled for my VCV Rack module <a href="https://modlfo.github.io/VultModules/flame/">Flame</a>.</p>
 
-            <p> I don't have a fixed setup for making music. I like to use whatever I have and have fun during the process. </p>
-            <p> Among the thigs that I have, these would be my picks: </p>
-            <ul>
-               <li>Propellerheads Reason </li>
-               <li>NI Maschine </li>
-               <li>Elektron Analog Four</li>
-               <li>Korg Volca Bass and Keys </li>
-               <li>Retronyms Tabletop </li>
-            </ul>
-            <img src="/images/gear.jpg">
+<p></p>
 
+
+<figure class="center-figure">
+    
+        <img src="/images/Blur.png" />
+    
+    
+    <figcaption>
+        <h4>Blur for Eurorack</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The original circuit is in fact very simple. It consists of two transistors that provide a very aggressive distortion. Here&rsquo;s my schematic:</p>
+
+
+<figure class="center-figure">
+    
+        <img src="/images/Blur-Schematic.png" />
+    
+    
+    <figcaption>
+        <h4>Blur Schematic</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I did a few changes to the original circuit. First I adapted the voltages to use NPN transistors  because I didn&rsquo;t have any PNP at hand when building this. Then I changed the polarization of the transistors to work at +12V from the Eurorack. I also removed the gain/tone control in favor of using a single input level potentiometer. The main reason of removing it was because I wanted to have full distortion and later use a filter or a different tone circuit to shape the sound. Finally, I changed the output stage so the levels are good for Eurorack.</p>
+
+<p>Blur is a very easy build that I recommend for anyone building Eurorack modules for the first time.</p>
+
+<p>How does it compare to Flame?</p>
+
+<p>The main difference between Blur (hardware) and Flame (software) is that Blus is noisier. That&rsquo;s expected because I didn&rsquo;t simulated noise whe modeling Flame.</p>
          </div>
          <footer class="mdl-mini-footer footer-style">
    <div class="mdl-mini-footer__left-section footer-style-elem">
