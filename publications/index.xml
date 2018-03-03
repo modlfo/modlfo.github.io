@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/publications/</link>
-    <description>Recent content in Publications on My New Hugo Site</description>
+    <title>Publications on Leonardo Laguna Ruiz</title>
+    <link>http://modlfo.github.com/publications/</link>
+    <description>Recent content in Publications on Leonardo Laguna Ruiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Dec 2016 08:48:29 -0600</lastBuildDate>
     
-	<atom:link href="http://replace-this-with-your-hugo-site.com/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://modlfo.github.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Arduinos as SystemModeler Components</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/modelplug/</link>
+      <link>http://modlfo.github.com/publications/modelplug/</link>
       <pubDate>Sun, 04 Dec 2016 08:48:29 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/modelplug/</guid>
+      <guid>http://modlfo.github.com/publications/modelplug/</guid>
       <description>&lt;p&gt;This is a post in the Wolfram blog. It presents the ModelPlug library for SystemModeler.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title> Design and Optimization of Power Delivery and Distribution Systems Using Evolutionary Computation Techniques</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/thesis/</link>
+      <link>http://modlfo.github.com/publications/thesis/</link>
       <pubDate>Sun, 04 Dec 2016 08:48:22 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/thesis/</guid>
+      <guid>http://modlfo.github.com/publications/thesis/</guid>
       <description>&lt;p&gt;This is my full PhD. thesis converted to HTML and presented as a single page.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Platform for fast evaluation and optimization of power systems</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/platform-fast/</link>
+      <link>http://modlfo.github.com/publications/platform-fast/</link>
       <pubDate>Sun, 04 Dec 2016 08:38:10 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/platform-fast/</guid>
+      <guid>http://modlfo.github.com/publications/platform-fast/</guid>
       <description>&lt;p&gt;This is a short version of my thesis where I present the full platform.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Fast architecture generation and evaluation techniques for the design of large power systems</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/fast-architecture/</link>
+      <link>http://modlfo.github.com/publications/fast-architecture/</link>
       <pubDate>Sun, 04 Dec 2016 08:37:55 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/fast-architecture/</guid>
+      <guid>http://modlfo.github.com/publications/fast-architecture/</guid>
       <description>&lt;p&gt;This paper focused in techniques used to automatically generate power architectures.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -57,10 +57,10 @@
     
     <item>
       <title>Power conversion modeling methodology based on building block models</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/power-conversion/</link>
+      <link>http://modlfo.github.com/publications/power-conversion/</link>
       <pubDate>Sun, 04 Dec 2016 08:37:37 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/power-conversion/</guid>
+      <guid>http://modlfo.github.com/publications/power-conversion/</guid>
       <description>&lt;p&gt;Here I presented modeling methodologies to characterize power converters. In addition, I presented the tool to simplify capturing and generating models.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -68,10 +68,10 @@
     
     <item>
       <title>Generalized methodology for the analysis and design of multiphase converters with integrated magnetics</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/generalized-methodology/</link>
+      <link>http://modlfo.github.com/publications/generalized-methodology/</link>
       <pubDate>Sun, 04 Dec 2016 08:37:18 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/generalized-methodology/</guid>
+      <guid>http://modlfo.github.com/publications/generalized-methodology/</guid>
       <description>&lt;p&gt;Here I presented the modeling and analysis of some cool magnetic core structures that I came up with.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -79,10 +79,10 @@
     
     <item>
       <title>Other miscellaneous papers</title>
-      <link>http://replace-this-with-your-hugo-site.com/publications/other-papper/</link>
+      <link>http://modlfo.github.com/publications/other-papper/</link>
       <pubDate>Fri, 04 Nov 2016 08:38:19 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/publications/other-papper/</guid>
+      <guid>http://modlfo.github.com/publications/other-papper/</guid>
       <description>&lt;p&gt;More papers can be found in the IEEE Xplore by searching by author: &amp;ldquo;L. Laguna&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

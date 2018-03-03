@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/projects/</link>
-    <description>Recent content in Projects on My New Hugo Site</description>
+    <title>Projects on Leonardo Laguna Ruiz</title>
+    <link>http://modlfo.github.com/projects/</link>
+    <description>Recent content in Projects on Leonardo Laguna Ruiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Jan 2018 16:54:50 -0600</lastBuildDate>
     
-	<atom:link href="http://replace-this-with-your-hugo-site.com/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://modlfo.github.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blur Distortion</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/blur/</link>
+      <link>http://modlfo.github.com/projects/blur/</link>
       <pubDate>Fri, 05 Jan 2018 16:54:50 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/blur/</guid>
+      <guid>http://modlfo.github.com/projects/blur/</guid>
       <description>&lt;p&gt;Blur is a distortion that I adapted from the Fuzz guitar pedal. Blur was one of the circuits I modeled for my VCV Rack module &lt;a href=&#34;https://modlfo.github.io/VultModules/flame/&#34;&gt;Flame&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,19 +24,19 @@
     
     <item>
       <title>Modules for VCVRack</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult-modules/</link>
+      <link>http://modlfo.github.com/projects/vult-modules/</link>
       <pubDate>Fri, 20 Oct 2017 21:41:54 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-modules/</guid>
+      <guid>http://modlfo.github.com/projects/vult-modules/</guid>
       <description>&lt;p&gt;This is a collection of all the modules that I have created for the virtual modular synthesizer VCVRack.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My CNC/3D printer</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/cnc/</link>
+      <link>http://modlfo.github.com/projects/cnc/</link>
       <pubDate>Mon, 03 Jul 2017 08:48:29 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/cnc/</guid>
+      <guid>http://modlfo.github.com/projects/cnc/</guid>
       <description>&lt;p&gt;Some time ago I was helping my fiance&amp;rsquo;s family cleaning the basement and in there we found a box with many electric and mechanic components that belonged to her dad.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>Monotron Eurorack Mod</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</link>
+      <link>http://modlfo.github.com/projects/vult-analog-monotron/</link>
       <pubDate>Tue, 16 May 2017 19:30:49 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-monotron/</guid>
+      <guid>http://modlfo.github.com/projects/vult-analog-monotron/</guid>
       <description>&lt;p&gt;More than six years after I bought my Korg Monotron, I decided to make a mod to put it in my Eurorack.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -55,10 +55,10 @@
     
     <item>
       <title>Vult Generic Module</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</link>
+      <link>http://modlfo.github.com/projects/vult-analog-module/</link>
       <pubDate>Wed, 10 May 2017 22:24:08 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-module/</guid>
+      <guid>http://modlfo.github.com/projects/vult-analog-module/</guid>
       <description>&lt;p&gt;This is a test module that I use to try different synthesis algorithms coded in Vult. The module uses a Teensy 3.2 and provides Eurorack voltages.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -66,10 +66,10 @@
     
     <item>
       <title>Steiner-Parker VCF</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</link>
+      <link>http://modlfo.github.com/projects/vult-analog-steiner-parker/</link>
       <pubDate>Thu, 20 Apr 2017 22:30:20 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-steiner-parker/</guid>
+      <guid>http://modlfo.github.com/projects/vult-analog-steiner-parker/</guid>
       <description>&lt;p&gt;This is my version of a Steiner-Parker VCF for Eurorack format. This implementation is based on the design by Yves Usson (Yusynth).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -77,10 +77,10 @@
     
     <item>
       <title>Signal Buffer</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</link>
+      <link>http://modlfo.github.com/projects/vult-analog-audio-buffer/</link>
       <pubDate>Thu, 20 Apr 2017 22:08:00 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult-analog-audio-buffer/</guid>
+      <guid>http://modlfo.github.com/projects/vult-analog-audio-buffer/</guid>
       <description>&lt;p&gt;This is a very simple module that I made to protect other signal generators just in case I make a mistake. A simple active buffer with a few operational amplifiers.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -88,10 +88,10 @@
     
     <item>
       <title>Vult</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/vult/</link>
+      <link>http://modlfo.github.com/projects/vult/</link>
       <pubDate>Mon, 05 Dec 2016 13:22:37 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/vult/</guid>
+      <guid>http://modlfo.github.com/projects/vult/</guid>
       <description>&lt;p&gt;Vult is a simple programming language made to generate high-performance DSP code that can run on small processors like Arduinos.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -99,10 +99,10 @@
     
     <item>
       <title>Pla</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/pla/</link>
+      <link>http://modlfo.github.com/projects/pla/</link>
       <pubDate>Fri, 02 Dec 2016 13:53:14 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/pla/</guid>
+      <guid>http://modlfo.github.com/projects/pla/</guid>
       <description>&lt;p&gt;Pla is an OCaml library and ppx syntax extension to create composable templates based on verbatim strings.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -110,10 +110,10 @@
     
     <item>
       <title>ModelPlug</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/modelplug/</link>
+      <link>http://modlfo.github.com/projects/modelplug/</link>
       <pubDate>Fri, 02 Dec 2016 13:45:39 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/modelplug/</guid>
+      <guid>http://modlfo.github.com/projects/modelplug/</guid>
       <description>&lt;p&gt;ModelPlug is a library for SystemModeler. ModelPlug allows you to connect simulation models with Arduino boards and use them to input/output signals.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -121,10 +121,10 @@
     
     <item>
       <title>3D Models</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/3dmodels/</link>
+      <link>http://modlfo.github.com/projects/3dmodels/</link>
       <pubDate>Wed, 05 Oct 2016 16:54:50 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/3dmodels/</guid>
+      <guid>http://modlfo.github.com/projects/3dmodels/</guid>
       <description>&lt;p&gt;These are a few models that I have designed for different applications.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -132,10 +132,10 @@
     
     <item>
       <title>Microbruto</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/microbruto/</link>
+      <link>http://modlfo.github.com/projects/microbruto/</link>
       <pubDate>Mon, 02 Dec 2013 14:04:01 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/microbruto/</guid>
+      <guid>http://modlfo.github.com/projects/microbruto/</guid>
       <description>&lt;p&gt;The MicroBruto is a digital synthesizer with controllers inspired by the MicroBrute.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -143,10 +143,10 @@
     
     <item>
       <title>Mocotron</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/mocotron/</link>
+      <link>http://modlfo.github.com/projects/mocotron/</link>
       <pubDate>Sun, 02 Dec 2012 14:04:07 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/mocotron/</guid>
+      <guid>http://modlfo.github.com/projects/mocotron/</guid>
       <description>&lt;p&gt;Mocotron is an imitation of the Monotron synthesizer made in Reaktor.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -154,10 +154,10 @@
     
     <item>
       <title>Monoblep-Meblitron</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/monoblep-meblitron/</link>
+      <link>http://modlfo.github.com/projects/monoblep-meblitron/</link>
       <pubDate>Fri, 02 Dec 2011 14:04:38 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/monoblep-meblitron/</guid>
+      <guid>http://modlfo.github.com/projects/monoblep-meblitron/</guid>
       <description>&lt;p&gt;This is a hybrid synthesizer that I hacked during the MIDIHACK 2014 in Stockholm.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -165,10 +165,10 @@
     
     <item>
       <title>FirmataTest.js</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/firmata-test-js/</link>
+      <link>http://modlfo.github.com/projects/firmata-test-js/</link>
       <pubDate>Thu, 02 Dec 2010 14:05:11 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/firmata-test-js/</guid>
+      <guid>http://modlfo.github.com/projects/firmata-test-js/</guid>
       <description>&lt;p&gt;This is a small program that I made to learn/test Atom-shell (now Electron) and Angular.js. This program allows you to communicate and configure Firmata boards like Arduino.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -176,10 +176,10 @@
     
     <item>
       <title>Ocaml Firmata</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/ocaml-firmata/</link>
+      <link>http://modlfo.github.com/projects/ocaml-firmata/</link>
       <pubDate>Wed, 02 Dec 2009 15:57:07 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/ocaml-firmata/</guid>
+      <guid>http://modlfo.github.com/projects/ocaml-firmata/</guid>
       <description>&lt;p&gt;This is a Ocaml library that allows you to access Firmata boards.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -187,10 +187,10 @@
     
     <item>
       <title>Teensy Braids</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/teensy-braids/</link>
+      <link>http://modlfo.github.com/projects/teensy-braids/</link>
       <pubDate>Tue, 02 Dec 2008 15:57:17 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/teensy-braids/</guid>
+      <guid>http://modlfo.github.com/projects/teensy-braids/</guid>
       <description>&lt;p&gt;I took the source code of the Mutable-Intruments Braids and adapted it to a Teensy board with a nice OLED display. Then I 3D-printed a case and made it a cool synthesizer.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -198,10 +198,10 @@
     
     <item>
       <title>HMH Mixer</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/hmh-mixer/</link>
+      <link>http://modlfo.github.com/projects/hmh-mixer/</link>
       <pubDate>Sun, 02 Dec 2007 15:57:30 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/hmh-mixer/</guid>
+      <guid>http://modlfo.github.com/projects/hmh-mixer/</guid>
       <description>&lt;p&gt;This is an educational project I made to get a better understanding on mixing sound.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -209,10 +209,10 @@
     
     <item>
       <title>MeeBlip Editor</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</link>
+      <link>http://modlfo.github.com/projects/meeblip-editor/</link>
       <pubDate>Sat, 02 Dec 2006 15:57:43 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/meeblip-editor/</guid>
+      <guid>http://modlfo.github.com/projects/meeblip-editor/</guid>
       <description>&lt;p&gt;This is an editor for the Meeblip synthesizer. I use it with the Meeblip micro.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -220,10 +220,10 @@
     
     <item>
       <title>Water Bobot</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</link>
+      <link>http://modlfo.github.com/projects/water-bobot/</link>
       <pubDate>Fri, 02 Dec 2005 15:57:54 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/water-bobot/</guid>
+      <guid>http://modlfo.github.com/projects/water-bobot/</guid>
       <description>&lt;p&gt;I assembled this project using the Rover 5. It uses an Arduino for the low-level control (current balancing, speed control) and a Raspberry Pi to receive OSC messages.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -231,10 +231,10 @@
     
     <item>
       <title>Extendra</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/extendra/</link>
+      <link>http://modlfo.github.com/projects/extendra/</link>
       <pubDate>Thu, 02 Dec 2004 15:58:03 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/extendra/</guid>
+      <guid>http://modlfo.github.com/projects/extendra/</guid>
       <description>&lt;p&gt;I made this board to add more I/O to other projects. It uses a PIC16F1516 and is controlled by I2C.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -242,10 +242,10 @@
     
     <item>
       <title>HackPrism</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/hackprism/</link>
+      <link>http://modlfo.github.com/projects/hackprism/</link>
       <pubDate>Tue, 02 Dec 2003 15:58:11 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/hackprism/</guid>
+      <guid>http://modlfo.github.com/projects/hackprism/</guid>
       <description>&lt;p&gt;This is program inspired by the app SoundPrism. It does no have all the features of SoundPrism but it allows you hack the code and personalize it.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -253,10 +253,10 @@
     
     <item>
       <title>Noname Synth</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/noname-synth/</link>
+      <link>http://modlfo.github.com/projects/noname-synth/</link>
       <pubDate>Mon, 02 Dec 2002 15:58:20 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/noname-synth/</guid>
+      <guid>http://modlfo.github.com/projects/noname-synth/</guid>
       <description>&lt;p&gt;This is a small synthesizer I made by reusing parts from other projects. Internally it has an XMOS processor and uses phase distortion synthesis.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -264,10 +264,10 @@
     
     <item>
       <title>QuineHp</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/quine-hp/</link>
+      <link>http://modlfo.github.com/projects/quine-hp/</link>
       <pubDate>Sun, 02 Dec 2001 15:58:31 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/quine-hp/</guid>
+      <guid>http://modlfo.github.com/projects/quine-hp/</guid>
       <description>&lt;p&gt;This was the first programs that I made in the HP49G+ calculator using the C compiler (I have done many for the HP49G). It is a logic function minimizer using the Quine-MacCluskey method.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

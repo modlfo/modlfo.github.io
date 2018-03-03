@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/blog/</link>
-    <description>Recent content in Blogs on My New Hugo Site</description>
+    <title>Blogs on Leonardo Laguna Ruiz</title>
+    <link>http://modlfo.github.com/blog/</link>
+    <description>Recent content in Blogs on Leonardo Laguna Ruiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Dec 2016 17:55:50 -0600</lastBuildDate>
     
-	<atom:link href="http://replace-this-with-your-hugo-site.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://modlfo.github.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Talk at Technology Institute of Celaya</title>
-      <link>http://replace-this-with-your-hugo-site.com/blog/itc-talk/</link>
+      <link>http://modlfo.github.com/blog/itc-talk/</link>
       <pubDate>Thu, 22 Dec 2016 17:55:50 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/blog/itc-talk/</guid>
+      <guid>http://modlfo.github.com/blog/itc-talk/</guid>
       <description>&lt;p&gt;Last 9th of December I gave a talk at the Technology Institute of Celaya (Instituto Tecnológico de Celaya).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Vult at OpenFest Bulgaria</title>
-      <link>http://replace-this-with-your-hugo-site.com/blog/openfest-2016/</link>
+      <link>http://modlfo.github.com/blog/openfest-2016/</link>
       <pubDate>Mon, 05 Dec 2016 17:17:06 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/blog/openfest-2016/</guid>
+      <guid>http://modlfo.github.com/blog/openfest-2016/</guid>
       <description>&lt;p&gt;Last november I attended to the OpenFest 2016 in Bulgaria where I presented an overview of Vult.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Art &amp; Tech Meetup</title>
-      <link>http://replace-this-with-your-hugo-site.com/blog/art-tech-meetup/</link>
+      <link>http://modlfo.github.com/blog/art-tech-meetup/</link>
       <pubDate>Sat, 22 Oct 2016 17:55:50 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/blog/art-tech-meetup/</guid>
+      <guid>http://modlfo.github.com/blog/art-tech-meetup/</guid>
       <description>&lt;p&gt;Last 20 of October we organized the first Art &amp;amp; Tech Meetup at Hackafe Plovdiv.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Creative Media Workshop</title>
-      <link>http://replace-this-with-your-hugo-site.com/blog/creative-media-workshop/</link>
+      <link>http://modlfo.github.com/blog/creative-media-workshop/</link>
       <pubDate>Fri, 23 Sep 2016 18:28:33 -0600</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/blog/creative-media-workshop/</guid>
+      <guid>http://modlfo.github.com/blog/creative-media-workshop/</guid>
       <description>&lt;p&gt;The Creative Media Workshop was a kind of Hackathon led by Barak Koren and Petko Tanchev.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
