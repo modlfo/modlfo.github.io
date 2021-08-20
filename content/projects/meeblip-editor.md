@@ -2,7 +2,7 @@
 date = "2006-12-02T15:57:43-06:00"
 title = "MeeBlip Editor"
 layout = "project-page"
-link = "https://dl.dropboxusercontent.com/u/26650040/meeblip.maxpat"
+link = "/other/meeblip.maxpat"
 image ="/images/meeblipeditor.png"
 +++
 

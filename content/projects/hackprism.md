@@ -2,7 +2,7 @@
 date = "2003-12-02T15:58:11-06:00"
 title = "HackPrism"
 layout = "project-page"
-link = "hhttp://dl.dropbox.com/u/26650040/NTE/hackPrism.pde"
+link = "/other/hackPrism.pde"
 image = "/images/hackprism.png"
 +++
 

@@ -3,7 +3,7 @@ date = "2007-12-02T15:57:30-06:00"
 title = "HMH Mixer"
 layout = "project-page"
 image = "/images/hmhmix.png"
-link = "https://dl.dropboxusercontent.com/u/26650040/NTE/HMHMixer.maxpat"
+link = "/other/HMHMixer.maxpat"
 +++
 
 This is an educational project I made to get a better understanding on mixing sound.
@@ -15,7 +15,7 @@ This is an educational project I made to get a better understanding on mixing so
 
 Mixing is all about hearing but it’s always ok to  get a little help from the eyes; that’s the place of spectrum analyzers.  When mixing two sounds we have to be careful on how they interact with  each other in frequency domain. A bad mix may have moments in which certain frequencies get to loud or where one sound shadows the presence of other.
 
-Being capable of detecting (and fixing) those problems of a mix requires training and talent. Since I don’t have to much training yet (lets not talk about the talent) I made this program to help me hear. The HMH (Help-Me-Hear) Mixer provides features that can help you in times of doubt. 
+Being capable of detecting (and fixing) those problems of a mix requires training and talent. Since I don’t have to much training yet (lets not talk about the talent) I made this program to help me hear. The HMH (Help-Me-Hear) Mixer provides features that can help you in times of doubt.
 
 This is a screenshot of the interface:
 
