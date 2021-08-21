@@ -6,7 +6,7 @@
       {{ partial "header.html" . }}
       <main class="mdl-layout__content">
          <div class="mdl-grid grid-max-width">
-            {{ range where .Site.Pages "Section" "blog" }} {{ .Render "post-card" }} {{ end }}
+            {{ range .Pages }} {{ .Render "post-card" }} {{ end }}
          </div>
          {{ partial "footer.html" . }}
       </main>

@@ -1,4 +1,9 @@
-baseurl = "http://modlfo.github.com/"
 languageCode = "en-us"
+baseurl = "https://modlfo.github.com/"
 title = "Leonardo Laguna Ruiz"
 theme = "modlfo"
+
+relativeURLs = "true"
+
+[markup.goldmark.renderer]
+unsafe = true
