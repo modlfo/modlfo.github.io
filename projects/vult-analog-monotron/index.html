@@ -52,45 +52,20 @@
             <h3>Monotron Eurorack Mod</h3>
              
             <hr /> <p>More than six years after I bought my Korg Monotron, I decided to make a mod to put it in my Eurorack.</p>
-
-<p></p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-banner.png" />
-    
-    
-    <figcaption>
-        <h4>Monotron-Kills</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-banner.png"/><figcaption>
+            <h4>Monotron-Kills</h4>
+        </figcaption>
 </figure>
-
 
 <p>This is something that has been already done before by other persons. A search shows the <a href="http://pulplogic.com/product/monotron-kit/">Pulp Logic kit</a> and also some threads in MuffWiggler. However, I intentionally avoided looking at this pages since I wanted to figure it out by myself. I called my mod Monotron-Kills.</p>
-
 <p>By looking at the schematics and making a few measurements I defined the necessary things to adapt it. Since the Monotron works in a low voltage my approach was to adapt the input and output voltages to support the plus minus twelve volts of the Eurorack.</p>
-
 <p>The first step was to remove one capacitor of the Monotron in order to break the connection of the VCO to the VCF. In the picture you can see the cap I removed.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-fix.png" />
-    
-    
-    <figcaption>
-        <h4>One capacitor removed to break VCO-&gt;VCF</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-fix.png"/><figcaption>
+            <h4>One capacitor removed to break VCO-&gt;VCF</h4>
+        </figcaption>
 </figure>
 
-
 <p>I also removed the &lsquo;standby/pitch/cuttoff&rsquo; switch in order to break the connections from the LFO to the VCF or VCO. I put in place a wire to keep the Monotron ON the whole time. I removed all the potentiometers in the board and also the volume control. Once all afore mentioned components were removed I soldered wires to get the following inputs/outputs:</p>
-
 <ul>
 <li>VCO output: the point is labeled on the PCB</li>
 <li>LFO output: labeled on the PCB</li>
@@ -100,93 +75,39 @@
 <li>Gate: labeled on the PCB</li>
 <li>VCF input: lower pad of the removed capacitor</li>
 </ul>
-
 <p>Using these terminals is possible to get one VCO, VCF and LFO from the Monotron. The following image show the circuit I designed to adapt it.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-kills-schematic.png" />
-    
-    
-    <figcaption>
-        <h4>Schematic of the Eurorack adapter</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-kills-schematic.png"/><figcaption>
+            <h4>Schematic of the Eurorack adapter</h4>
+        </figcaption>
 </figure>
-
 
 <p>Here you can get the <a href="/images/vult-analog-monotron-kills-schematic.pdf">PFD version of the schematic</a>. In the schematic the component U3 represents the Monotron board.</p>
-
 <p>Since the main circuit used 6 opamps and I had 8 available I decided to add PWM output from the VCO. I also added two jacks to add CV control to the PWM and the VCF.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-pbc.png" />
-    
-    
-    <figcaption>
-        <h4>Panel and adapter board</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-pbc.png"/><figcaption>
+            <h4>Panel and adapter board</h4>
+        </figcaption>
 </figure>
-
 
 <p>Based on this schematic I designed a PCB which I intended to use just for testing purposes. But once I wired all and checked that everything worked I got lazy and didn&rsquo;t tear apart the prototype. So I designed a panel to mount my ugly prototype.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-b.png" />
-    
-    
-    <figcaption>
-        <h4>Prototype mounted to the panel (Monotron side)</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-b.png"/><figcaption>
+            <h4>Prototype mounted to the panel (Monotron side)</h4>
+        </figcaption>
 </figure>
 
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-a.png" />
-    
-    
-    <figcaption>
-        <h4>Prototype mounted to the panel (adapter side)</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-a.png"/><figcaption>
+            <h4>Prototype mounted to the panel (adapter side)</h4>
+        </figcaption>
 </figure>
-
 
 <p>Once the Monotron-Kills is mounted you cannot see the mess that lies behind.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-monotron-final.png" />
-    
-    
-    <figcaption>
-        <h4>Monotron-Kills mounted</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-monotron-final.png"/><figcaption>
+            <h4>Monotron-Kills mounted</h4>
+        </figcaption>
 </figure>
 
-
 <p>Here you can hear a demo of the module.</p>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3EoyLmH_5hY" frameborder="0" allowfullscreen></iframe>
-
 <p>In retrospective, these are some of the things that can be improved:</p>
-
 <ul>
 <li>Desing a PCB to mount all pots and jacks. This PCB should make easy to mount the Monotron board and the adapter.</li>
 <li>This module is 8HP (~ 40 mm) and it has too many knobs and jacks. Making the panel 12HP or 14HP would have been better.</li>

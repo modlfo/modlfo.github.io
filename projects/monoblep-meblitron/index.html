@@ -56,59 +56,27 @@
                Download
             </button> 
             <hr /> <p>This is a hybrid synthesizer that I hacked during the MIDIHACK 2014 in Stockholm.</p>
-
-<p></p>
-
 <p>This synthesizer combines a Monotron and a Meeblip. Both synthesizers are controlled by a Raspberry Pi which receives OSC messages.</p>
-
 <h3 id="the-story">The story</h3>
-
 <p>Last May 17-18 I attended to the MIDI HACK, which is by far the coolest Hackathon out there (IMO). Is not that I have been in others, but this one matched perfectly the kind of hacks that I like to make.</p>
-
 <p>I had a great time surrounded by people with the same obsessions as me: music, electronics and computers. The event was great, it had nice food, a lot of drinks, coffee and the most important thing: the aura.</p>
-
 <p>At the beginning I had no idea what I was going to build. So I spend the first three hours moving ideas in my brain and trying to come up with something feasible and not repeated. After looking at my bag I decided to do something that I wanted to do two years back…</p>
-
 <p>I had in my bag a Monotron, a Meeblip and some Arduinos. So I decided to put them together and add some extra sauce by connecting a Raspberry Pi to handle OSC messages.</p>
-
 <p>After some hours I decided to drop the Raspberry Pi because I couldn’t connect it to the Spotify’s  WIFI but it works fine otherwise.</p>
-
 <p>This is a picture of the project:</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/monobleep-meeblitron.jpg" />
-    
-    
-    <figcaption>
-        <h4>Monoblep-Meblitron</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/monobleep-meeblitron.jpg"/><figcaption>
+            <h4>Monoblep-Meblitron</h4>
+        </figcaption>
 </figure>
-
 
 <p>And this is a more detailed diagram of the connections.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/monobleep-meeblitron-diagram.png" />
-    
-    
-    <figcaption>
-        <h4>Diagram</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/monobleep-meeblitron-diagram.png"/><figcaption>
+            <h4>Diagram</h4>
+        </figcaption>
 </figure>
 
-
 <p>So, The RPi runs Node.js and connects to the Arduinos by using the Arduino Firmata. One of the Arduinos sends CV signals to the Monotron in order to control the gate, pitch and cutoff. The second Arduino connects to a custom-made board containing knobs, buttons and LEDs.</p>
-
 <p>The Meeblip is connected by using a standard USB to MIDI converter. The audio of the Meeblip is fed into the Monotron and it uses a potentiometer to control the amount of audio.</p>
-
 <p>The custom controller is used to adjust a few of the parameters of the Meeblip.</p>
          </div>
          <footer class="mdl-mini-footer footer-style">

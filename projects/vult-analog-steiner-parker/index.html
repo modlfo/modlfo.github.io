@@ -52,182 +52,74 @@
             <h3>Steiner-Parker VCF</h3>
              
             <hr /> <p>This is my version of a Steiner-Parker VCF for Eurorack format. This implementation is based on the design by Yves Usson (Yusynth).</p>
-
-<p></p>
-
 <p>If you don&rsquo;t know the story. I&rsquo;m trying to build my own Eurorack synthesizer&hellip; and by build I mean creating all the modules. Most of the modules (and synthesizers) that I have built are hand-soldered in perfboards. For this module, I wanted something more &ldquo;professional&rdquo; looking. That&rsquo;s why I decided to design and manufacture the PCBs. In this case I used CircuitMaker.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-2.jpg" />
-    
-    
-    <figcaption>
-        <h4>Vult-Analog Steiner-Parker VCF</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-2.jpg"/><figcaption>
+            <h4>Vult-Analog Steiner-Parker VCF</h4>
+        </figcaption>
 </figure>
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c74hJdPacnU" frameborder="0" allowfullscreen></iframe>
-
 <p>You can find the original design here <a href="http://yusynth.net/Modular/index_en.html">Yusynth</a></p>
-
 <p>The module consist of three boards: a panel, a control board and the analog board. If you want to make your own, you can find my original design files here.</p>
-
 <ul>
 <li><a href="/other/Steiner-Parker.zip">Analog Board</a></li>
 <li><a href="/other/Steiner-Parker-control.zip">Control Board</a></li>
 <li><a href="/other/Steiner-Parker-panel.zip">Panel</a></li>
 </ul>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-vcf-boards.png" />
-    
-    
-    <figcaption>
-        <h4>The three boards</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-vcf-boards.png"/><figcaption>
+            <h4>The three boards</h4>
+        </figcaption>
 </figure>
-
 
 <p>But before making your own you have to be aware that this initial design is not perfect. So keep reading.</p>
-
 <h3 id="building-your-own">Building your own</h3>
-
 <p>This are the schematics of the filter:</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-diagram.png" />
-    
-    
-    <figcaption>
-        <h4>Steiner-Parker main board</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-diagram.png"/><figcaption>
+            <h4>Steiner-Parker main board</h4>
+        </figcaption>
 </figure>
 
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-control.png" />
-    
-    
-    <figcaption>
-        <h4>Steiner-Parker control board</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-control.png"/><figcaption>
+            <h4>Steiner-Parker control board</h4>
+        </figcaption>
 </figure>
-
 
 <p>These are the schematics in PDF format <a href="/images/vult-analog-steiner-parker-diagram.pdf">main</a>, <a href="/images/vult-analog-steiner-parker-control.pdf">control</a>.</p>
-
 <p>Regarding the components, I got practically all of them from <a href="https://www.musikding.de">Musikding</a>.</p>
-
 <p>This filter uses a pair of matched transistors. Yves recommends BC547C or a 2SC1583. In my case I used a THAT300P14 which contains 4 transistors (two of them are unused). If you have a pair of matched transistors you can use them instead. As you can see in the picture below, the trimpots are precision trimpots.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-back.png" />
-    
-    
-    <figcaption>
-        <h4>Main board</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-back.png"/><figcaption>
+            <h4>Main board</h4>
+        </figcaption>
 </figure>
-
 
 <p>One mistake that I made in the first (and only) batch of the board was an incorrect trace. The good thing is that it&rsquo;s very easy to fix. I incorrectly connected the feedback of the resonance control to the wrong pin of the opamp. You can see the fix in the picture below.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-fix.png" />
-    
-    
-    <figcaption>
-        <h4>Fix for the first batch of boards</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-fix.png"/><figcaption>
+            <h4>Fix for the first batch of boards</h4>
+        </figcaption>
 </figure>
-
 
 <p>My second mistake was when buying the jacks. I designed the PCB for these jacks (Lumberg 1502 03), since I had a few of them:</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/jack1.png" />
-    
-    
-    <figcaption>
-        <h4>Matching jacks</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/jack1.png"/><figcaption>
+            <h4>Matching jacks</h4>
+        </figcaption>
 </figure>
-
 
 <p>But the ones I bought were:</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/jack2.png" />
-    
-    
-    <figcaption>
-        <h4>Alternative jacks (requires some fixing)</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/jack2.png"/><figcaption>
+            <h4>Alternative jacks (requires some fixing)</h4>
+        </figcaption>
 </figure>
-
 
 <p>Since the pins do not match I had to adapt them by cutting the original pins and soldering new pins that matched the originals.</p>
-
 <p>One part that I didn&rsquo;t have when designing the board was the filter mode selector. In the original design Yves uses 3P4T rotary switch. I was not sure that I could easily find it, therefore I made a big hole in the PCB and exposed the pins (one source and three destinations: LP, BP, HP). That way I could adapt any switch I could get. At the end I used a Mini rotary switch 2P3T from <a href="https://www.musikding.de/index.php?a=2761&amp;bewertung_anzeigen=1">Musikding</a>. Using this switch you can not have the all-pass mode of the filter.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-switch.png" />
-    
-    
-    <figcaption>
-        <h4>Connecting a 2P3T switch</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-switch.png"/><figcaption>
+            <h4>Connecting a 2P3T switch</h4>
+        </figcaption>
 </figure>
 
-
-
-<figure class="center-figure">
-    
-        <img src="/images/vult-analog-steiner-parker-front.png" />
-    
-    
-    <figcaption>
-        <h4>Control board</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/vult-analog-steiner-parker-front.png"/><figcaption>
+            <h4>Control board</h4>
+        </figcaption>
 </figure>
          </div>
          <footer class="mdl-mini-footer footer-style">

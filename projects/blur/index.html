@@ -52,65 +52,28 @@
             <h3>Blur Distortion</h3>
              
             <hr /> <p>Blur is a distortion that I adapted from the Fuzz guitar pedal. Blur was one of the circuits I modeled for my VCV Rack module <a href="https://modlfo.github.io/VultModules/flame/">Flame</a>.</p>
-
-<p></p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/Blur.png" />
-    
-    
-    <figcaption>
-        <h4>Blur for Eurorack</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/Blur.png"/><figcaption>
+            <h4>Blur for Eurorack</h4>
+        </figcaption>
 </figure>
-
 
 <p>UPDATE: there are two versions of the diagram. The second is more controllable than the first therefore it&rsquo;s recommended to build that one. For a better description of the process and the sound you can check this video:</p>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KpQBoFbcppM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <p>The original circuit is in fact very simple. It consists of two transistors that provide a very aggressive distortion. Here&rsquo;s the schematic of the first version:</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/Blur-Schematic.png" />
-    
-    
-    <figcaption>
-        <h4>Blur initial schematic</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/Blur-Schematic.png"/><figcaption>
+            <h4>Blur initial schematic</h4>
+        </figcaption>
 </figure>
-
 
 <p>Blur is a very easy build that I recommend for anyone building Eurorack modules for the first time.</p>
-
 <p>I did a few changes to the original circuit. First I adapted the voltages to use NPN transistors  because I didn&rsquo;t have any PNP at hand when building this. Then I changed the polarization of the transistors to work at +12V from the Eurorack. I also removed the gain control in favor of using a single input level potentiometer. The main reason of removing it was because I wanted to have full distortion and later use a filter or a different tone circuit to shape the sound. Finally, I changed the output stage so the levels are good for Eurorack.</p>
-
 <p>After playing more with this version I built a second adding back the gain control.</p>
-
-
-<figure class="center-figure">
-    
-        <img src="/images/BlurSchematic2.png" />
-    
-    
-    <figcaption>
-        <h4>Blur improved schematic</h4>
-        
-    </figcaption>
-    
+<figure class="center-figure"><img src="/images/BlurSchematic2.png"/><figcaption>
+            <h4>Blur improved schematic</h4>
+        </figcaption>
 </figure>
 
-
 <p>In the software version the input gain can be controlled very precisely and it has a tone control stage after. However in the eurorack version (without tone circuit) the effect tends to be less interesting. In this case adding back the original gain control makes more sense.</p>
-
 <p>I replaced the input potentiomenter with a trimpot in order to calibrate the maximum input required before the signal distorts. The I used the second potentiomenter as the main distortion. All the details can be found in the video above.</p>
          </div>
          <footer class="mdl-mini-footer footer-style">
